@@ -15,6 +15,6 @@ People share what they doubt: 12% believe, 21% share. A fixed logistic rule: 39%
 3/
 Caveats: Jev is closed and trained on synthetic data, so this shows what a model assumes about people, not how people behave. 64 nodes, 2 messages, 20 seeds each.
 
-80 runs cost $0.13 and replay from cache with no API calls. Code and interactive page: [link]
+80 runs cost $0.13 and replay from cache with no API calls. Code and interactive page: github.com/NonAbelianCapu/opinion-jev
 
 [image: 3_red_y_linaje.png]

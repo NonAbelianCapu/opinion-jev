@@ -49,4 +49,4 @@ Advertencias:
 9/
 Las 80 corridas costaron unos 13 centavos de dólar: US$0,05 de Jev y US$0,08 de reescrituras.
 
-Todo queda en caché y se reproduce sin llamar a las APIs. Código y página interactiva: [link]
+Todo queda en caché y se reproduce sin llamar a las APIs. Código y página interactiva: github.com/NonAbelianCapu/opinion-jev
