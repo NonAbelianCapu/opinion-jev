@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Pablo, who usually doubts neighborhood rumors.\nSource: Carmen, a contact of Pablo in the neighborhood chat.\nMessage: \"The municipal pool is officially a toxic death trap that’s been poisoning people for months, and they are desperately trying to cover up the full scale of this massive health disaster! Stay far away because even walking near the perimeter is life-threatening at this point.\"\nContext: 1 of Pablo's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r9:s3:n5",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.13
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.99,
+    "probabilities": {
+     "verbatim": 0.01,
+     "exaggerate": 0.0,
+     "soften": 0.99,
+     "add_detail": 0.0,
+     "change_source": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 582,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:34.895059+00:00"
+}

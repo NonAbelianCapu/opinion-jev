@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Mrs. Gable just spotted a patrol car staking out Elm Street at 3:00 AM, so get ready for the council’s aggressive new crackdown. They’re clearly tightening their grip and will be hunting down anyone who doesn't follow these ridiculous bin rules.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 3.68,
+    "confidence": 0.72,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.08,
+     "3": 0.14,
+     "4": 0.77
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.29,
+    "confidence": 0.54,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.11,
+     "3": 0.45999999999999996,
+     "4": 0.42
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 434,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:25.412196+00:00"
+}

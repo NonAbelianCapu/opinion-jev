@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Martín, who usually doubts neighborhood rumors.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"It’s finally happening: the city is officially shutting down the pool all summer because it’s become a complete health hazard. They’ve let it fall into such total disrepair that it’s no longer safe for anyone to step foot in there.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I heard a rumor that the pool might be closed this summer due to some maintenance issues. It’s hard to say if that’s actually true, but people are starting to talk about it.",
+ "usage": {
+  "prompt_tokens": 141,
+  "completion_tokens": 40,
+  "total_tokens": 181,
+  "cost": 9.525e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.525e-05,
+   "upstream_inference_prompt_cost": 3.525e-05,
+   "upstream_inference_completions_cost": 6e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r13:s5:n13",
+ "fetched_at": "2026-10-16T15:12:00.092299+00:00"
+}

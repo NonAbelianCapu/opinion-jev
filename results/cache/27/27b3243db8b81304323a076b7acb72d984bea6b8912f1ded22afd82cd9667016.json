@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Irene, who usually doubts neighborhood rumors. Irene thinks the council should be stricter about bins on the sidewalk.\nChange to make: EXAGGERATE: make the claim bigger, more alarming or more certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"Starting next month the neighborhood council will fine anyone who leaves their bins on the sidewalk after 8am.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "It’s finally happening: the council is launching an aggressive crackdown and will be slapping massive fines on anyone who dares leave a bin out after 8am. They are clearly done playing around, so expect strict enforcement starting next month.",
+ "usage": {
+  "prompt_tokens": 124,
+  "completion_tokens": 47,
+  "total_tokens": 171,
+  "cost": 0.0001015,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001015,
+   "upstream_inference_prompt_cost": 3.1e-05,
+   "upstream_inference_completions_cost": 7.05e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r1:s4:n28",
+ "fetched_at": "2026-10-16T14:59:47.058560+00:00"
+}

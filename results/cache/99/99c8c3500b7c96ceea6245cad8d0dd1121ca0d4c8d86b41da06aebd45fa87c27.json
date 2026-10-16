@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I’ve heard some talk that the pool might be having maintenance issues, though I’m not sure how much of the rumor about it being a health hazard is actually true. It sounds pretty extreme, so I’d take that with a grain of salt until we hear something official.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 0.33,
+    "confidence": 0.72,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.67,
+     "1": 0.33,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 0.3,
+    "confidence": 0.77,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.79,
+     "1": 0.17,
+     "2": 0.02,
+     "3": 0.02,
+     "4": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 435,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:06.019426+00:00"
+}

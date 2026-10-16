@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The council is officially planning to start slapping us with massive fines for leaving bins out. They’re finding any excuse to tighten their grip on us, so we need to be ready for these new patrols.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.84,
+    "confidence": 0.28,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.02,
+     "2": 0.37,
+     "3": 0.37,
+     "4": 0.24
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.58,
+    "confidence": 0.5,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.06,
+     "2": 0.39,
+     "3": 0.46,
+     "4": 0.09
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 424,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:46.749545+00:00"
+}

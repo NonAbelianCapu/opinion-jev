@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Can you believe they’re actually going to fine us for our bins now? Old Mr. Henderson said the council is even installing a new surveillance camera on Elm Street just to catch people who leave them out past 8am!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.25,
+    "confidence": 0.57,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.13,
+     "2": 0.59,
+     "3": 0.18,
+     "4": 0.1
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 1.64,
+    "confidence": 0.32,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.08,
+     "1": 0.4,
+     "2": 0.34,
+     "3": 0.15,
+     "4": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 425,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T14:59:37.037596+00:00"
+}

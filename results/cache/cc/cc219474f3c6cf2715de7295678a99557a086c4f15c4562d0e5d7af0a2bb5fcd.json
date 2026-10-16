@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard from a reliable contact inside the council that they’re actually planning to enforce stricter fines for bins left out after 8am. It sounds like they’re looking for more ways to pile on the regulations, so we should probably be careful.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.36,
+    "confidence": 0.69,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.72,
+     "2": 0.23,
+     "3": 0.01,
+     "4": 0.04
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 0.82,
+    "confidence": 0.69,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.27,
+     "1": 0.64,
+     "2": 0.08,
+     "3": 0.01,
+     "4": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 431,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:06:17.122187+00:00"
+}

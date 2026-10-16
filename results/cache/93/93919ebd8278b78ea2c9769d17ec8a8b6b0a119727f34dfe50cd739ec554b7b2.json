@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Susana, who is cautious about neighborhood rumors but sometimes believes them.\nSusana thinks the council should be stricter about bins on the sidewalk.\nSource: Ángel, a contact of Susana in the neighborhood chat.\nMessage: \"I’ve heard a rumor that the council might start fining people for leaving bins out past 8am next month, though I’m not sure how true that is. It sounds like something we should probably look into just in case.\"\nContext: 1 of Susana's contact shared this message.\nSusana has now seen this message 2 times.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r17:s2:n58",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.42
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.4
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "exaggerate",
+    "confidence": 0.61,
+    "probabilities": {
+     "verbatim": 0.13,
+     "exaggerate": 0.69,
+     "soften": 0.11,
+     "add_detail": 0.06,
+     "change_source": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 613,
+   "output_tokens": 97
+  }
+ },
+ "fetched_at": "2026-10-16T15:11:19.151933+00:00"
+}

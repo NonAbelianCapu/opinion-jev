@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I’m not one to spread gossip, but Mrs. Gable says her grandson tested the water and found dangerous levels of bacteria. It wouldn't surprise me given how poorly they’ve maintained that pool for years, so please stay away.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.73,
+    "confidence": 0.39,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.51,
+     "2": 0.36,
+     "3": 0.02,
+     "4": 0.11
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 1.63,
+    "confidence": 0.48,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.07,
+     "1": 0.36,
+     "2": 0.46,
+     "3": 0.1,
+     "4": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 427,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:12:37.805837+00:00"
+}

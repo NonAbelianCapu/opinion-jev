@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Ángel, who is cautious about neighborhood rumors but sometimes believes them.\nChange to make: ADD A DETAIL: add one specific detail (a number, a place, a date, a name of a made-up neighbor) that was not in the message.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"The municipal swimming pool will stay closed this summer because a routine water test found a problem.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I heard the municipal pool is staying closed all summer after Mr. Henderson mentioned a routine test found a dangerous bacteria level. It sounds a bit extreme, but I suppose we should be careful until we know more.",
+ "usage": {
+  "prompt_tokens": 131,
+  "completion_tokens": 42,
+  "total_tokens": 173,
+  "cost": 9.575e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.575e-05,
+   "upstream_inference_prompt_cost": 3.275e-05,
+   "upstream_inference_completions_cost": 6.3e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r12:s1:n59",
+ "fetched_at": "2026-10-16T15:09:11.363805+00:00"
+}

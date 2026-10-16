@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Pablo, who is fairly open to believing neighborhood rumors. Pablo trusts the staff who run the municipal pool.\nChange to make: EXAGGERATE: make the claim bigger, more alarming or more certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I heard a rumor that the pool might be closed this summer due to some maintenance issues. It’s hard to say if that’s actually true, but people are starting to talk about it.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I just heard from the pool staff that the entire facility is definitely shutting down for the whole summer due to massive, dangerous structural failures. It’s officially happening, so we need to start making other plans immediately.",
+ "usage": {
+  "prompt_tokens": 143,
+  "completion_tokens": 43,
+  "total_tokens": 186,
+  "cost": 0.00010025,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00010025,
+   "upstream_inference_prompt_cost": 3.575e-05,
+   "upstream_inference_completions_cost": 6.45e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r13:s6:n5",
+ "fetched_at": "2026-10-16T15:12:07.926444+00:00"
+}

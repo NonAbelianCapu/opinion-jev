@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Did you hear that the neighborhood council is starting fines next month for bins left out after 8am? Mrs. Gable said they’re even hiring 3 extra patrol officers just to enforce it!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.05,
+    "confidence": 0.74,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.13,
+     "1": 0.75,
+     "2": 0.09,
+     "3": 0.0,
+     "4": 0.03
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 0.94,
+    "confidence": 0.6,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.27,
+     "1": 0.55,
+     "2": 0.15,
+     "3": 0.03,
+     "4": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 420,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T14:58:13.734244+00:00"
+}

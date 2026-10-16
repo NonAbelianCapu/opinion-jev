@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I heard from Mrs. Gable that the council is planning to hunt down anyone with a late bin starting on the 5th, which sounds like just another way to squeeze us for more fines. I’m not sure I fully believe it, but with their track record, we should probably be careful.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.38,
+    "confidence": 0.69,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.63,
+     "2": 0.37,
+     "3": 0.0,
+     "4": 0.0
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 1.51,
+    "confidence": 0.46,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.08,
+     "1": 0.48,
+     "2": 0.32,
+     "3": 0.11,
+     "4": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 441,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:00:10.822415+00:00"
+}

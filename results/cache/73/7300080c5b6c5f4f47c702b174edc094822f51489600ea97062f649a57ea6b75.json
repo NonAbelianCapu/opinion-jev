@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I heard a rumor that the pool might be closed this summer due to some maintenance issues. It’s hard to say if that’s actually true, but people are starting to talk about it.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 0.28,
+    "confidence": 0.77,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.72,
+     "1": 0.28,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 0.11,
+    "confidence": 0.92,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.9,
+     "1": 0.1,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 418,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:12:00.360347+00:00"
+}

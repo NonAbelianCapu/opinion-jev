@@ -1,0 +1,25 @@
+[project]
+name = "jevsim"
+version = "0.1.0"
+description = "Opinion spreading with a typed decision model (TypeSafe Jev)"
+readme = "README.md"
+authors = [
+    { name = "NonAbelianCapu", email = "acaputobugallo@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "matplotlib>=3.10.9",
+    "networkx>=3.4.2",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.23,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

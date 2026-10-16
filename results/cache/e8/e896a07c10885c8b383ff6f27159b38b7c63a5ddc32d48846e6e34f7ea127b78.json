@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I’m not one to spread gossip, but Mrs. Gable mentioned the municipal pool is staying closed all summer due to a failed water test on June 12th. I hope it’s just a rumor, but it sounds like there’s a serious issue with the filtration system.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.0,
+    "confidence": 0.97,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.02,
+     "1": 0.96,
+     "2": 0.02,
+     "3": 0.0,
+     "4": 0.0
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 1.91,
+    "confidence": 0.29,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.08,
+     "1": 0.31,
+     "2": 0.35,
+     "3": 0.14,
+     "4": 0.12
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 437,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:46.149778+00:00"
+}

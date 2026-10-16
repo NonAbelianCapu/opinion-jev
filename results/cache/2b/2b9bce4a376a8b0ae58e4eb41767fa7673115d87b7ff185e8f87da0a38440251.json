@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Some are saying the pool might be closing this week, but that sounds like just another neighborhood rumor to me. I wouldn't put too much stock in it until we hear something official.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 0.29,
+    "confidence": 0.76,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.71,
+     "1": 0.29,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 0.08,
+    "confidence": 0.95,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.9400000000000001,
+     "1": 0.06,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 417,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:08:22.493443+00:00"
+}

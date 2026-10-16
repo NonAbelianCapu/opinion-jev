@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Daniel, who is cautious about neighborhood rumors but sometimes believes them.\nChange to make: ADD A DETAIL: add one specific detail (a number, a place, a date, a name of a made-up neighbor) that was not in the message.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I heard a rumor that the pool might be closed all summer due to water quality issues, though I’m sure the staff would tell us if it were truly dangerous. It’s possible there’s more going on than they’ve let on, but I'm not entirely sure what to believe.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I heard a rumor that the pool might be closed all summer due to water quality issues, though Mrs. Higgins claims she saw a maintenance crew testing the pipes yesterday. I’m not sure if it’s true, but it seems like there might be more going on than the staff is telling us.",
+ "usage": {
+  "prompt_tokens": 175,
+  "completion_tokens": 61,
+  "total_tokens": 236,
+  "cost": 0.00013525,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00013525,
+   "upstream_inference_prompt_cost": 4.375e-05,
+   "upstream_inference_completions_cost": 9.15e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r18:s6:n47",
+ "fetched_at": "2026-10-16T15:10:26.478197+00:00"
+}

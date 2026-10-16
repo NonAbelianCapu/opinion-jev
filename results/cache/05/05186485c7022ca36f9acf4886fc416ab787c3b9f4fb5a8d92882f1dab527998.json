@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Javier, who is fairly open to believing neighborhood rumors. Javier thinks the council should be stricter about bins on the sidewalk.\nChange to make: CHANGE THE SOURCE: say the claim comes from a different, more convincing source (for example someone who works at the council).\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"The council is launching a ruthless, city-wide crackdown to hunt down every single bin left out, and they will be issuing massive, unavoidable fines to everyone starting next month. They are completely determined to punish us with these predatory penalties for the slightest infraction.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I just heard from a contact inside the city council that they are launching a strict crackdown on bins left on sidewalks, with massive fines starting next month. It’s about time they finally started enforcing these rules properly.",
+ "usage": {
+  "prompt_tokens": 166,
+  "completion_tokens": 43,
+  "total_tokens": 209,
+  "cost": 0.000106,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000106,
+   "upstream_inference_prompt_cost": 4.15e-05,
+   "upstream_inference_completions_cost": 6.45e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r19:s7:n41",
+ "fetched_at": "2026-10-16T15:09:27.988275+00:00"
+}

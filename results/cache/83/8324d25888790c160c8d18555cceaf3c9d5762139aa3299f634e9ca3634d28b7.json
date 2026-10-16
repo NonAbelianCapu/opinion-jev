@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard from Mrs. Gable that the city is keeping the pool closed all summer because the water is toxic, though I’m still waiting for official confirmation. It sounds like the contamination levels are way higher than what the staff is telling us.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.84,
+    "confidence": 0.3,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.52,
+     "2": 0.29,
+     "3": 0.02,
+     "4": 0.17
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.5,
+    "confidence": 0.42,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.1,
+     "2": 0.39,
+     "3": 0.41000000000000003,
+     "4": 0.1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 430,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:10:15.603619+00:00"
+}

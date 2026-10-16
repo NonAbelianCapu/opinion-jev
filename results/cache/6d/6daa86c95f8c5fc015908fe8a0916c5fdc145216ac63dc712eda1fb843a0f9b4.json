@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The pool is officially falling apart and will definitely be closed all summer due to severe neglect. Everyone is saying it’s a total safety hazard now!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 3.7,
+    "confidence": 0.76,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.07,
+     "3": 0.15,
+     "4": 0.78
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.95,
+    "confidence": 0.97,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.04,
+     "4": 0.96
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 409,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:12:09.977745+00:00"
+}

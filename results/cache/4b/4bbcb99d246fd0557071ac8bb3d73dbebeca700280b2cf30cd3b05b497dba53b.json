@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Ángel, who usually doubts neighborhood rumors.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"Starting next month the neighborhood council will fine anyone who leaves their bins on the sidewalk after 8am.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I’ve heard a rumor that the council might start fining people for leaving bins out past 8am next month, though I’m not sure how true that is. It sounds like something we should probably look into just in case.",
+ "usage": {
+  "prompt_tokens": 110,
+  "completion_tokens": 49,
+  "total_tokens": 159,
+  "cost": 0.000101,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000101,
+   "upstream_inference_prompt_cost": 2.75e-05,
+   "upstream_inference_completions_cost": 7.35e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r17:s1:n59",
+ "fetched_at": "2026-10-16T15:11:10.931181+00:00"
+}

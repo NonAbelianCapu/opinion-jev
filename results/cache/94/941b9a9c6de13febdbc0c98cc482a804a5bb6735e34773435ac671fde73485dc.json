@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I’ve heard some concerning rumors that the municipal pool might be having major maintenance issues again. It’s hard to know what’s true, but you might want to be careful if you’ve been swimming there lately.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.11,
+    "confidence": 0.92,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.92,
+     "2": 0.07,
+     "3": 0.0,
+     "4": 0.01
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 0.42,
+    "confidence": 0.66,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.6,
+     "1": 0.39,
+     "2": 0.01,
+     "3": 0.0,
+     "4": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 422,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:13:20.911537+00:00"
+}

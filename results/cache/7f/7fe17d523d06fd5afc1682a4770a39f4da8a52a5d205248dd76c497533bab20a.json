@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard from a contact who works directly for the city council that the pool will likely be closed all summer due to contamination. It sounds much more serious than the rumors we've been hearing, so we should probably prepare for the worst.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.67,
+    "confidence": 0.42,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.61,
+     "2": 0.22,
+     "3": 0.01,
+     "4": 0.15
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.17,
+    "confidence": 0.56,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.18,
+     "2": 0.51,
+     "3": 0.27,
+     "4": 0.04
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 428,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:05:54.341440+00:00"
+}

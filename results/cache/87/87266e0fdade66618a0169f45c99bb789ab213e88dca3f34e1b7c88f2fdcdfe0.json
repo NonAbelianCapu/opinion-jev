@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I’m not sure if it’s true, but Mrs. Gable says the council is actually going to fine us for our bins now. They’re supposedly installing 3 cameras on Elm Street to catch anyone who leaves them out past 8am!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.5,
+    "confidence": 0.52,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.03,
+     "1": 0.7,
+     "2": 0.13,
+     "3": 0.01,
+     "4": 0.13
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 1.22,
+    "confidence": 0.53,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.17,
+     "1": 0.51,
+     "2": 0.26,
+     "3": 0.05,
+     "4": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 430,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T14:59:40.371733+00:00"
+}

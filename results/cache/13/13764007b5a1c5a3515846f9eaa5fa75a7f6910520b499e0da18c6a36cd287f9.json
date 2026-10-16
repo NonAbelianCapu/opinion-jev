@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Marina, who is cautious about neighborhood rumors but sometimes believes them. Marina thinks the council should be stricter about bins on the sidewalk.\nChange to make: ADD A DETAIL: add one specific detail (a number, a place, a date, a name of a made-up neighbor) that was not in the message.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"My contact at the council just confirmed they’re starting a strict crackdown next month, with heavy fines for bins left out past 8am. They’ll be going door-to-door to enforce it, so we should definitely be careful.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I heard from Mr. Henderson that the council is finally cracking down on bins left out past 8am starting next month. It sounds like they’ll be going door-to-door, so we really need to be careful about leaving them on the sidewalk.",
+ "usage": {
+  "prompt_tokens": 176,
+  "completion_tokens": 53,
+  "total_tokens": 229,
+  "cost": 0.0001235,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001235,
+   "upstream_inference_prompt_cost": 4.4e-05,
+   "upstream_inference_completions_cost": 7.95e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r14:s3:n60",
+ "fetched_at": "2026-10-16T15:10:18.210033+00:00"
+}

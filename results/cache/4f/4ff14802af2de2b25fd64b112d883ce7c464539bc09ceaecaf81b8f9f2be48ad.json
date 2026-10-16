@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard from a contact at the city council that the pool is closing indefinitely due to severe water contamination. Please stay away, as the situation is apparently much worse than the official reports suggest.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 3.0,
+    "confidence": 0.17,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.15,
+     "2": 0.23,
+     "3": 0.08,
+     "4": 0.54
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.94,
+    "confidence": 0.68,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.2,
+     "3": 0.62,
+     "4": 0.17
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 419,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:12:31.952284+00:00"
+}

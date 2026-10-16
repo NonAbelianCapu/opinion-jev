@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard from a contact inside the council that they’re planning to roll out aggressive new mandatory fines next month. It sounds like they’re looking for any excuse to ticket us, which is exactly the kind of overreach we don't need.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.42,
+    "confidence": 0.56,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.05,
+     "2": 0.6,
+     "3": 0.22,
+     "4": 0.13
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.47,
+    "confidence": 0.5,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.07,
+     "2": 0.45,
+     "3": 0.43,
+     "4": 0.05
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 430,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:46.483678+00:00"
+}

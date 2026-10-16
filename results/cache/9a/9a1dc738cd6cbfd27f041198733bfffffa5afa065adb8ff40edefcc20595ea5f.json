@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The council is officially cracking down and will start issuing heavy fines for any bins left out past 8am. It’s definitely happening, so make sure yours are put away immediately to avoid getting hit.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.97,
+    "confidence": 0.19,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.47000000000000003,
+     "2": 0.29,
+     "3": 0.04,
+     "4": 0.2
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.68,
+    "confidence": 0.22,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.11,
+     "2": 0.32,
+     "3": 0.32,
+     "4": 0.24
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 420,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:42.703657+00:00"
+}

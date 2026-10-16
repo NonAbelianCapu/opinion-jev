@@ -1,0 +1,78 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Marta, who is fairly open to believing neighborhood rumors.\nMarta thinks the council should be stricter about bins.\nSource: the official website of the Los Álamos neighborhood council.\nMessage: \"Starting next month the council will fine anyone who leaves bins on the sidewalk after 8am.\"",
+  "questions": {
+   "believe": {
+    "type": "choice",
+    "instructions": "After reading this message, does the person believe the claim is true?",
+    "criteria": {
+     "believes": "The person accepts the claim as true",
+     "doubts": "The person doubts or rejects the claim"
+    }
+   },
+   "trust_source": {
+    "type": "score",
+    "instructions": "How much does the person trust this source?",
+    "criteria": [
+     "No trust at all",
+     "Little trust",
+     "Moderate trust",
+     "High trust",
+     "Complete trust"
+    ]
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe": {
+    "type": "choice",
+    "choice": "believes",
+    "confidence": 0.94,
+    "probabilities": {
+     "believes": 0.97,
+     "doubts": 0.03
+    }
+   },
+   "trust_source": {
+    "type": "score",
+    "score": 2.66,
+    "confidence": 0.6,
+    "legend": {
+     "0": "No trust at all",
+     "1": "Little trust",
+     "2": "Moderate trust",
+     "3": "High trust",
+     "4": "Complete trust"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.08,
+     "2": 0.24,
+     "3": 0.6,
+     "4": 0.08
+    }
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.68
+   }
+  },
+  "usage": {
+   "input_tokens": 496,
+   "output_tokens": 67
+  }
+ },
+ "fetched_at": "2026-10-16T14:47:45.186655+00:00"
+}

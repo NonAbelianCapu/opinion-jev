@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Word is the council is officially launching a crackdown next month, so expect massive fines if your bins are even an inch onto the sidewalk after 8am. It’s finally happening, and they aren't going to let anyone slide anymore.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.41,
+    "confidence": 0.32,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.21,
+     "2": 0.41000000000000003,
+     "3": 0.15,
+     "4": 0.23
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.49,
+    "confidence": 0.57,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.05,
+     "3": 0.41,
+     "4": 0.54
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 427,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:00:06.317169+00:00"
+}

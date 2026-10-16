@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Adriana, who usually doubts neighborhood rumors.\nAdriana thinks the municipal pool has been badly maintained for years.\nSource: Pilar, a contact of Adriana in the neighborhood chat.\nMessage: \"Did you hear? The municipal pool is staying closed all summer because Mrs. Gable says a routine test found toxic chemicals in the water.\"\nContext: 1 of Adriana's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r3:s2:n44",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.36
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.22
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.95,
+    "probabilities": {
+     "verbatim": 0.01,
+     "exaggerate": 0.01,
+     "soften": 0.96,
+     "add_detail": 0.01,
+     "change_source": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 576,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:06:36.710429+00:00"
+}

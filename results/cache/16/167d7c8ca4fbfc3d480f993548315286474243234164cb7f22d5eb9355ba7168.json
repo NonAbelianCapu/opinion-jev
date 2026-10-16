@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Raúl, who usually doubts neighborhood rumors. Raúl thinks the council already has too many rules.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"The council is officially launching a massive crackdown starting next month and will be slapping heavy fines on anyone who dares leave their bins out even a minute past 8am. It’s about time they finally started aggressively penalizing these people for cluttering up our sidewalks!\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I’ve heard some talk about the council possibly introducing stricter bin collection rules, though I’m not sure how much of it is actually true. They seem to have enough regulations as it is, so I'd take this with a grain of salt.",
+ "usage": {
+  "prompt_tokens": 152,
+  "completion_tokens": 52,
+  "total_tokens": 204,
+  "cost": 0.000116,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000116,
+   "upstream_inference_prompt_cost": 3.8e-05,
+   "upstream_inference_completions_cost": 7.8e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r13:s2:n11",
+ "fetched_at": "2026-10-16T15:09:26.935140+00:00"
+}

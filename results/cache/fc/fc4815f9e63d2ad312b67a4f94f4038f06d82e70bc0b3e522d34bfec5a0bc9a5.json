@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Can you believe it? My neighbor Mrs. Gable said they found a 12-foot crack in the foundation, which confirms what I've been saying about them neglecting that pool for years.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.77,
+    "confidence": 0.54,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.39,
+     "2": 0.49,
+     "3": 0.08,
+     "4": 0.04
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.03,
+    "confidence": 0.46,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.03,
+     "1": 0.25,
+     "2": 0.43,
+     "3": 0.24,
+     "4": 0.05
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 421,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:24.050454+00:00"
+}

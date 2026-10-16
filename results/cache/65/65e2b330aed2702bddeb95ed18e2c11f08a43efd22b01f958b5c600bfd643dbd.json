@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Andrés, who is cautious about neighborhood rumors but sometimes believes them.\nChange to make: ADD A DETAIL: add one specific detail (a number, a place, a date, a name of a made-up neighbor) that was not in the message.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I heard the municipal pool is staying closed all summer due to a failed water test, though Mrs. Gable claims she saw them draining it on Tuesday. Take that with a grain of salt until we get an official notice.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I heard the municipal pool is staying closed all summer due to a failed water test, and Mr. Henderson mentioned seeing a maintenance crew installing new filters there yesterday. Take that with a grain of salt until we get an official notice.",
+ "usage": {
+  "prompt_tokens": 157,
+  "completion_tokens": 46,
+  "total_tokens": 203,
+  "cost": 0.00010825,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00010825,
+   "upstream_inference_prompt_cost": 3.925e-05,
+   "upstream_inference_completions_cost": 6.9e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r18:s6:n17",
+ "fetched_at": "2026-10-16T15:10:23.462492+00:00"
+}

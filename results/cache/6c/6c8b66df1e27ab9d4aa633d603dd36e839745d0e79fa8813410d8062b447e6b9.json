@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The council is finally cracking down and will be handing out massive fines to anyone who dares leave their bins on the sidewalk for even a second past 8am. It’s about time they started enforcing some real order around here!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.04,
+    "confidence": 0.65,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.19,
+     "2": 0.58,
+     "3": 0.23,
+     "4": 0.0
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.39,
+    "confidence": 0.48,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.07,
+     "3": 0.45,
+     "4": 0.47
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 426,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:08:39.887704+00:00"
+}

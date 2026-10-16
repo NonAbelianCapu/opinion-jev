@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Mateo, who is cautious about neighborhood rumors but sometimes believes them.\nMateo trusts the staff who run the municipal pool.\nSource: Ernesto, a contact of Mateo in the neighborhood chat.\nMessage: \"The municipal swimming pool will stay closed this summer because a routine water test found a problem.\"\nContext: 1 of Mateo's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r19:s1:n43",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.46
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.4
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.6,
+    "probabilities": {
+     "verbatim": 0.09,
+     "exaggerate": 0.08,
+     "soften": 0.68,
+     "add_detail": 0.01,
+     "change_source": 0.13
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 566,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:14:29.632394+00:00"
+}

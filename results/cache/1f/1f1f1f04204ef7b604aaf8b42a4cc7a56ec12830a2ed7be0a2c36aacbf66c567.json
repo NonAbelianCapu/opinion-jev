@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I’ve been telling everyone for years that the city’s neglect would cause a disaster, and now the pool is officially a toxic biohazard site. They’re shutting it down indefinitely because it’s become a full-blown public health catastrophe for the entire neighborhood.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 3.42,
+    "confidence": 0.53,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.11,
+     "3": 0.34,
+     "4": 0.55
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.56,
+    "confidence": 0.63,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.02,
+     "3": 0.4,
+     "4": 0.58
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 432,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:08:27.340334+00:00"
+}

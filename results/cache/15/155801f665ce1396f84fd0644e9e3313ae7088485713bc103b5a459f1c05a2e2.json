@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Adriana, who is cautious about neighborhood rumors but sometimes believes them. Adriana thinks the municipal pool has been badly maintained for years.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I just heard from a contact at the city council that the municipal pool is staying closed all summer due to an issue found in a routine water test. It’s so disappointing, but at least we know it’s coming from someone on the inside.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I’ve heard a rumor that the pool might stay closed this summer due to some water quality issues, though I’m not sure how reliable the source is. It wouldn’t surprise me given the recent maintenance, but hopefully, it’s just talk.",
+ "usage": {
+  "prompt_tokens": 157,
+  "completion_tokens": 53,
+  "total_tokens": 210,
+  "cost": 0.00011875,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00011875,
+   "upstream_inference_prompt_cost": 3.925e-05,
+   "upstream_inference_completions_cost": 7.95e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r6:s2:n44",
+ "fetched_at": "2026-10-16T15:07:13.383933+00:00"
+}

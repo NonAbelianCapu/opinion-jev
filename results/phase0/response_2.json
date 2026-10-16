@@ -1,0 +1,41 @@
+{
+    "model": "jev-1.13.0",
+    "answers": {
+        "believe": {
+            "type": "choice",
+            "choice": "doubts",
+            "confidence": 0.98,
+            "probabilities": {
+                "believes": 0.01,
+                "doubts": 0.99
+            }
+        },
+        "trust_source": {
+            "type": "score",
+            "score": 0.84,
+            "confidence": 0.86,
+            "legend": {
+                "0": "No trust at all",
+                "1": "Little trust",
+                "2": "Moderate trust",
+                "3": "High trust",
+                "4": "Complete trust"
+            },
+            "probabilities": {
+                "0": 0.17,
+                "1": 0.83,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0
+            }
+        },
+        "share": {
+            "type": "noul",
+            "noul": 0.21
+        }
+    },
+    "usage": {
+        "input_tokens": 516,
+        "output_tokens": 68
+    }
+}

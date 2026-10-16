@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Paula, who is cautious about neighborhood rumors but sometimes believes them.\nSource: Ernesto, a contact of Paula in the neighborhood chat.\nMessage: \"Starting next month the neighborhood council will fine anyone who leaves their bins on the sidewalk after 8am.\"\nContext: 1 of Paula's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r8:s1:n18",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.43
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.41
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.7,
+    "probabilities": {
+     "verbatim": 0.14,
+     "exaggerate": 0.07,
+     "soften": 0.76,
+     "add_detail": 0.01,
+     "change_source": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 558,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:26.926443+00:00"
+}

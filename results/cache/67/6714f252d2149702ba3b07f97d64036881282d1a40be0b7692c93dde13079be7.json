@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Alicia, who is cautious about neighborhood rumors but sometimes believes them.\nChange to make: ADD A DETAIL: add one specific detail (a number, a place, a date, a name of a made-up neighbor) that was not in the message.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"The council is officially launching a massive crackdown and will start slapping heavy fines on everyone who leaves their bins out. They are finally taking aggressive action to clear our sidewalks for good!\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I’m not 100% sure if this is true, but Mrs. Gable said the council is starting a crackdown on bins this Thursday. Apparently they’ll be issuing $200 fines to clear the sidewalks for good.",
+ "usage": {
+  "prompt_tokens": 148,
+  "completion_tokens": 49,
+  "total_tokens": 197,
+  "cost": 0.0001105,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001105,
+   "upstream_inference_prompt_cost": 3.7e-05,
+   "upstream_inference_completions_cost": 7.35e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r12:s5:n32",
+ "fetched_at": "2026-10-16T15:08:06.891840+00:00"
+}

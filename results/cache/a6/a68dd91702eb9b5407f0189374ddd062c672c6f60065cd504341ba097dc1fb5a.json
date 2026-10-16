@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Emilio, who is cautious about neighborhood rumors but sometimes believes them. Emilio thinks the council already has too many rules.\nChange to make: CHANGE THE SOURCE: say the claim comes from a different, more convincing source (for example someone who works at the council).\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I’m hearing some talk that the council might be looking into fines for bins left out, though I’m not sure how true that is. Honestly, I’m not convinced we need even more rules around here.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I just spoke with a contact over at the council who confirmed they’re actually planning to roll out fines for bins left out. It’s frustrating that they’re obsessed with adding more rules instead of leaving us alone.",
+ "usage": {
+  "prompt_tokens": 159,
+  "completion_tokens": 45,
+  "total_tokens": 204,
+  "cost": 0.00010725,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00010725,
+   "upstream_inference_prompt_cost": 3.975e-05,
+   "upstream_inference_completions_cost": 6.75e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r7:s4:n35",
+ "fetched_at": "2026-10-16T15:06:56.076799+00:00"
+}

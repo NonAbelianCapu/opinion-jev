@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Teresa, who usually doubts neighborhood rumors. Teresa trusts the staff who run the municipal pool.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"The city is finally admitting the pool is a toxic death trap that’s been rotting for years. It’s collapsing as we speak and will be boarded up forever because they’ve completely destroyed it.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I heard a rumor that the pool might need some repairs, though I’m skeptical since the staff usually keeps things in good order. It’s possible there are some maintenance issues, but I wouldn't jump to conclusions just yet.",
+ "usage": {
+  "prompt_tokens": 140,
+  "completion_tokens": 48,
+  "total_tokens": 188,
+  "cost": 0.000107,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000107,
+   "upstream_inference_prompt_cost": 3.5e-05,
+   "upstream_inference_completions_cost": 7.2e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r6:s5:n36",
+ "fetched_at": "2026-10-16T15:07:26.928162+00:00"
+}

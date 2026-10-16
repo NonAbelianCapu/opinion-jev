@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Javier, who usually doubts neighborhood rumors.\nSource: Celia, a contact of Javier in the neighborhood chat.\nMessage: \"I’ve heard a rumor that the pool might stay closed this summer due to water test issues, though I’m not sure how reliable this information is. I usually trust the pool staff, so I’m hoping this turns out to be just another misunderstanding.\"\nContext: 1 of Javier's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r5:s3:n41",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.25
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.9,
+    "probabilities": {
+     "verbatim": 0.06,
+     "exaggerate": 0.01,
+     "soften": 0.92,
+     "add_detail": 0.0,
+     "change_source": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 583,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:06:58.201625+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Olga, who is cautious about neighborhood rumors but sometimes believes them. Olga thinks the council should be stricter about bins on the sidewalk.\nChange to make: EXAGGERATE: make the claim bigger, more alarming or more certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I’ve heard some talk that the council could potentially fine us for leaving bins out past 8am, though it's likely just a rumor. It might be worth staying mindful of the schedule, just in case there's any truth to it.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "The council is officially cracking down and will start issuing heavy fines for any bins left out past 8am. It’s definitely happening, so make sure yours are put away immediately to avoid getting hit.",
+ "usage": {
+  "prompt_tokens": 160,
+  "completion_tokens": 41,
+  "total_tokens": 201,
+  "cost": 0.0001015,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001015,
+   "upstream_inference_prompt_cost": 4e-05,
+   "upstream_inference_completions_cost": 6.15e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r13:s3:n56",
+ "fetched_at": "2026-10-16T15:09:42.440610+00:00"
+}

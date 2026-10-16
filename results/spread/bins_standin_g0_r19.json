@@ -1,0 +1,3213 @@
+{
+ "engine": "standin",
+ "graph_seed": 0,
+ "run_seed": 19,
+ "seed_node": 51,
+ "scenario": {
+  "message": "Starting next month the neighborhood council will fine anyone who leaves their bins on the sidewalk after 8am.",
+  "origin": "an anonymous account in the neighborhood chat group"
+ },
+ "graph": {
+  "nodes": [
+   {
+    "id": 0,
+    "x": 0.08217701239287256,
+    "y": -0.13812797174167782
+   },
+   {
+    "id": 1,
+    "x": 0.7245841143617169,
+    "y": -0.2900834186828825
+   },
+   {
+    "id": 2,
+    "x": 2.1879621435201635,
+    "y": 0.247653346366633
+   },
+   {
+    "id": 3,
+    "x": 3.0639814654603077,
+    "y": 0.13769793659039903
+   },
+   {
+    "id": 4,
+    "x": 4.026174994879254,
+    "y": 0.2610434542726609
+   },
+   {
+    "id": 5,
+    "x": 5.189512132472919,
+    "y": -0.29835689989791114
+   },
+   {
+    "id": 6,
+    "x": 6.214442565952542,
+    "y": -0.2798486548167214
+   },
+   {
+    "id": 7,
+    "x": 7.137793267857966,
+    "y": -0.1946066276384646
+   },
+   {
+    "id": 8,
+    "x": 0.2179073534099319,
+    "y": 1.024876732149455
+   },
+   {
+    "id": 9,
+    "x": 0.8798271343224309,
+    "y": 0.953612332718595
+   },
+   {
+    "id": 10,
+    "x": 1.7169918026872777,
+    "y": 0.7745699658997384
+   },
+   {
+    "id": 11,
+    "x": 3.1023746488161783,
+    "y": 1.08831370694455
+   },
+   {
+    "id": 12,
+    "x": 4.069231066888753,
+    "y": 0.93020653255713
+   },
+   {
+    "id": 13,
+    "x": 5.298325961473527,
+    "y": 1.2885012032657381
+   },
+   {
+    "id": 14,
+    "x": 6.111325190688417,
+    "y": 1.0902755657606897
+   },
+   {
+    "id": 15,
+    "x": 7.113068038342564,
+    "y": 0.9333528543874623
+   },
+   {
+    "id": 16,
+    "x": -0.21894209698655326,
+    "y": 2.132893004116449
+   },
+   {
+    "id": 17,
+    "x": 1.0152125934854355,
+    "y": 1.8861451253353734
+   },
+   {
+    "id": 18,
+    "x": 1.9915012152990734,
+    "y": 2.2336927006094003
+   },
+   {
+    "id": 19,
+    "x": 3.26042610957375,
+    "y": 1.914677118025442
+   },
+   {
+    "id": 20,
+    "x": 4.042917898437857,
+    "y": 1.8931216346455653
+   },
+   {
+    "id": 21,
+    "x": 5.056580018119818,
+    "y": 1.90274673530428
+   },
+   {
+    "id": 22,
+    "x": 5.934971400316897,
+    "y": 2.2341646112028752
+   },
+   {
+    "id": 23,
+    "x": 6.836294556120028,
+    "y": 2.0739122868116255
+   },
+   {
+    "id": 24,
+    "x": -0.2495907938505691,
+    "y": 3.199586488592039
+   },
+   {
+    "id": 25,
+    "x": 1.17225898449321,
+    "y": 2.843621665795771
+   },
+   {
+    "id": 26,
+    "x": 2.2258905384864223,
+    "y": 2.7351408208831165
+   },
+   {
+    "id": 27,
+    "x": 2.901670236327396,
+    "y": 2.7901676801369035
+   },
+   {
+    "id": 28,
+    "x": 3.9702036199895723,
+    "y": 3.1777945621723767
+   },
+   {
+    "id": 29,
+    "x": 4.838385325396248,
+    "y": 2.731212780638646
+   },
+   {
+    "id": 30,
+    "x": 5.942731103892917,
+    "y": 2.819107826705553
+   },
+   {
+    "id": 31,
+    "x": 6.754451827371473,
+    "y": 3.0481994315921104
+   },
+   {
+    "id": 32,
+    "x": -0.12078232030864644,
+    "y": 4.1031969267738155
+   },
+   {
+    "id": 33,
+    "x": 0.819709266380928,
+    "y": 4.2652678663038985
+   },
+   {
+    "id": 34,
+    "x": 1.9190661009468972,
+    "y": 3.7632971677421376
+   },
+   {
+    "id": 35,
+    "x": 3.0774648909238254,
+    "y": 4.256292731840721
+   },
+   {
+    "id": 36,
+    "x": 3.9642262928294705,
+    "y": 4.272754296214442
+   },
+   {
+    "id": 37,
+    "x": 4.999937488212588,
+    "y": 3.9551371749094453
+   },
+   {
+    "id": 38,
+    "x": 6.072128071209226,
+    "y": 4.297057903141194
+   },
+   {
+    "id": 39,
+    "x": 7.269366204962659,
+    "y": 3.976027083585458
+   },
+   {
+    "id": 40,
+    "x": 0.15463730718497487,
+    "y": 4.998453617292571
+   },
+   {
+    "id": 41,
+    "x": 1.0175872961180623,
+    "y": 5.171471420428285
+   },
+   {
+    "id": 42,
+    "x": 1.9487935096134024,
+    "y": 5.140690143073238
+   },
+   {
+    "id": 43,
+    "x": 3.12668572679385,
+    "y": 5.259235811968027
+   },
+   {
+    "id": 44,
+    "x": 3.768959579968543,
+    "y": 5.137409070245786
+   },
+   {
+    "id": 45,
+    "x": 5.256454357174736,
+    "y": 5.280755713954788
+   },
+   {
+    "id": 46,
+    "x": 5.708823782979222,
+    "y": 5.218184054147345
+   },
+   {
+    "id": 47,
+    "x": 7.288717024039807,
+    "y": 5.274326107766578
+   },
+   {
+    "id": 48,
+    "x": -0.21074159266050124,
+    "y": 6.283577288293773
+   },
+   {
+    "id": 49,
+    "x": 1.2339613334323123,
+    "y": 6.193424296525842
+   },
+   {
+    "id": 50,
+    "x": 1.9879927542846993,
+    "y": 5.839423751783582
+   },
+   {
+    "id": 51,
+    "x": 3.1811283472309846,
+    "y": 6.254118095870082
+   },
+   {
+    "id": 52,
+    "x": 3.8596781633753756,
+    "y": 6.023360644573312
+   },
+   {
+    "id": 53,
+    "x": 4.965651697384719,
+    "y": 6.258610389588693
+   },
+   {
+    "id": 54,
+    "x": 5.724306426713061,
+    "y": 6.139203717393936
+   },
+   {
+    "id": 55,
+    "x": 7.068623948169398,
+    "y": 5.717019219068113
+   },
+   {
+    "id": 56,
+    "x": 0.1315318636960442,
+    "y": 6.709595037714143
+   },
+   {
+    "id": 57,
+    "x": 1.1547706014138568,
+    "y": 7.007655233957247
+   },
+   {
+    "id": 58,
+    "x": 2.2574625324782036,
+    "y": 6.739649498034445
+   },
+   {
+    "id": 59,
+    "x": 3.20479036776743,
+    "y": 6.740014005260261
+   },
+   {
+    "id": 60,
+    "x": 3.906585987282475,
+    "y": 6.9581792391687
+   },
+   {
+    "id": 61,
+    "x": 5.279637248470442,
+    "y": 7.037339105337074
+   },
+   {
+    "id": 62,
+    "x": 5.85531875590256,
+    "y": 6.845005428456607
+   },
+   {
+    "id": 63,
+    "x": 7.232870992395508,
+    "y": 6.8355216570503945
+   }
+  ],
+  "edges": [
+   {
+    "a": 0,
+    "b": 1,
+    "kind": "near"
+   },
+   {
+    "a": 0,
+    "b": 8,
+    "kind": "near"
+   },
+   {
+    "a": 0,
+    "b": 9,
+    "kind": "near"
+   },
+   {
+    "a": 1,
+    "b": 9,
+    "kind": "near"
+   },
+   {
+    "a": 1,
+    "b": 8,
+    "kind": "near"
+   },
+   {
+    "a": 2,
+    "b": 10,
+    "kind": "near"
+   },
+   {
+    "a": 2,
+    "b": 3,
+    "kind": "near"
+   },
+   {
+    "a": 2,
+    "b": 11,
+    "kind": "near"
+   },
+   {
+    "a": 3,
+    "b": 11,
+    "kind": "near"
+   },
+   {
+    "a": 3,
+    "b": 4,
+    "kind": "near"
+   },
+   {
+    "a": 3,
+    "b": 51,
+    "kind": "long"
+   },
+   {
+    "a": 4,
+    "b": 12,
+    "kind": "near"
+   },
+   {
+    "a": 4,
+    "b": 11,
+    "kind": "near"
+   },
+   {
+    "a": 4,
+    "b": 5,
+    "kind": "near"
+   },
+   {
+    "a": 5,
+    "b": 6,
+    "kind": "near"
+   },
+   {
+    "a": 5,
+    "b": 13,
+    "kind": "near"
+   },
+   {
+    "a": 6,
+    "b": 7,
+    "kind": "near"
+   },
+   {
+    "a": 6,
+    "b": 14,
+    "kind": "near"
+   },
+   {
+    "a": 7,
+    "b": 15,
+    "kind": "near"
+   },
+   {
+    "a": 7,
+    "b": 14,
+    "kind": "near"
+   },
+   {
+    "a": 7,
+    "b": 63,
+    "kind": "long"
+   },
+   {
+    "a": 8,
+    "b": 9,
+    "kind": "near"
+   },
+   {
+    "a": 8,
+    "b": 17,
+    "kind": "near"
+   },
+   {
+    "a": 8,
+    "b": 16,
+    "kind": "near"
+   },
+   {
+    "a": 9,
+    "b": 10,
+    "kind": "near"
+   },
+   {
+    "a": 9,
+    "b": 17,
+    "kind": "near"
+   },
+   {
+    "a": 10,
+    "b": 17,
+    "kind": "near"
+   },
+   {
+    "a": 11,
+    "b": 19,
+    "kind": "near"
+   },
+   {
+    "a": 11,
+    "b": 12,
+    "kind": "near"
+   },
+   {
+    "a": 12,
+    "b": 20,
+    "kind": "near"
+   },
+   {
+    "a": 13,
+    "b": 21,
+    "kind": "near"
+   },
+   {
+    "a": 13,
+    "b": 14,
+    "kind": "near"
+   },
+   {
+    "a": 13,
+    "b": 22,
+    "kind": "near"
+   },
+   {
+    "a": 14,
+    "b": 15,
+    "kind": "near"
+   },
+   {
+    "a": 14,
+    "b": 22,
+    "kind": "near"
+   },
+   {
+    "a": 15,
+    "b": 23,
+    "kind": "near"
+   },
+   {
+    "a": 16,
+    "b": 24,
+    "kind": "near"
+   },
+   {
+    "a": 16,
+    "b": 17,
+    "kind": "near"
+   },
+   {
+    "a": 17,
+    "b": 25,
+    "kind": "near"
+   },
+   {
+    "a": 17,
+    "b": 18,
+    "kind": "near"
+   },
+   {
+    "a": 18,
+    "b": 26,
+    "kind": "near"
+   },
+   {
+    "a": 18,
+    "b": 25,
+    "kind": "near"
+   },
+   {
+    "a": 18,
+    "b": 27,
+    "kind": "near"
+   },
+   {
+    "a": 18,
+    "b": 51,
+    "kind": "long"
+   },
+   {
+    "a": 18,
+    "b": 28,
+    "kind": "long"
+   },
+   {
+    "a": 19,
+    "b": 20,
+    "kind": "near"
+   },
+   {
+    "a": 19,
+    "b": 27,
+    "kind": "near"
+   },
+   {
+    "a": 20,
+    "b": 21,
+    "kind": "near"
+   },
+   {
+    "a": 21,
+    "b": 29,
+    "kind": "near"
+   },
+   {
+    "a": 21,
+    "b": 22,
+    "kind": "near"
+   },
+   {
+    "a": 22,
+    "b": 30,
+    "kind": "near"
+   },
+   {
+    "a": 22,
+    "b": 23,
+    "kind": "near"
+   },
+   {
+    "a": 23,
+    "b": 31,
+    "kind": "near"
+   },
+   {
+    "a": 23,
+    "b": 30,
+    "kind": "near"
+   },
+   {
+    "a": 24,
+    "b": 32,
+    "kind": "near"
+   },
+   {
+    "a": 24,
+    "b": 25,
+    "kind": "near"
+   },
+   {
+    "a": 25,
+    "b": 26,
+    "kind": "near"
+   },
+   {
+    "a": 25,
+    "b": 34,
+    "kind": "near"
+   },
+   {
+    "a": 26,
+    "b": 27,
+    "kind": "near"
+   },
+   {
+    "a": 26,
+    "b": 34,
+    "kind": "near"
+   },
+   {
+    "a": 27,
+    "b": 28,
+    "kind": "near"
+   },
+   {
+    "a": 28,
+    "b": 29,
+    "kind": "near"
+   },
+   {
+    "a": 28,
+    "b": 36,
+    "kind": "near"
+   },
+   {
+    "a": 29,
+    "b": 30,
+    "kind": "near"
+   },
+   {
+    "a": 29,
+    "b": 37,
+    "kind": "near"
+   },
+   {
+    "a": 30,
+    "b": 31,
+    "kind": "near"
+   },
+   {
+    "a": 31,
+    "b": 39,
+    "kind": "near"
+   },
+   {
+    "a": 32,
+    "b": 40,
+    "kind": "near"
+   },
+   {
+    "a": 32,
+    "b": 33,
+    "kind": "near"
+   },
+   {
+    "a": 33,
+    "b": 41,
+    "kind": "near"
+   },
+   {
+    "a": 33,
+    "b": 40,
+    "kind": "near"
+   },
+   {
+    "a": 33,
+    "b": 34,
+    "kind": "near"
+   },
+   {
+    "a": 35,
+    "b": 36,
+    "kind": "near"
+   },
+   {
+    "a": 35,
+    "b": 43,
+    "kind": "near"
+   },
+   {
+    "a": 35,
+    "b": 44,
+    "kind": "near"
+   },
+   {
+    "a": 35,
+    "b": 54,
+    "kind": "long"
+   },
+   {
+    "a": 36,
+    "b": 44,
+    "kind": "near"
+   },
+   {
+    "a": 36,
+    "b": 37,
+    "kind": "near"
+   },
+   {
+    "a": 37,
+    "b": 38,
+    "kind": "near"
+   },
+   {
+    "a": 38,
+    "b": 46,
+    "kind": "near"
+   },
+   {
+    "a": 38,
+    "b": 39,
+    "kind": "near"
+   },
+   {
+    "a": 38,
+    "b": 47,
+    "kind": "near"
+   },
+   {
+    "a": 39,
+    "b": 47,
+    "kind": "near"
+   },
+   {
+    "a": 40,
+    "b": 41,
+    "kind": "near"
+   },
+   {
+    "a": 40,
+    "b": 48,
+    "kind": "near"
+   },
+   {
+    "a": 41,
+    "b": 42,
+    "kind": "near"
+   },
+   {
+    "a": 41,
+    "b": 49,
+    "kind": "near"
+   },
+   {
+    "a": 42,
+    "b": 50,
+    "kind": "near"
+   },
+   {
+    "a": 42,
+    "b": 43,
+    "kind": "near"
+   },
+   {
+    "a": 43,
+    "b": 44,
+    "kind": "near"
+   },
+   {
+    "a": 43,
+    "b": 51,
+    "kind": "near"
+   },
+   {
+    "a": 44,
+    "b": 52,
+    "kind": "near"
+   },
+   {
+    "a": 45,
+    "b": 46,
+    "kind": "near"
+   },
+   {
+    "a": 45,
+    "b": 54,
+    "kind": "near"
+   },
+   {
+    "a": 45,
+    "b": 53,
+    "kind": "near"
+   },
+   {
+    "a": 46,
+    "b": 54,
+    "kind": "near"
+   },
+   {
+    "a": 47,
+    "b": 55,
+    "kind": "near"
+   },
+   {
+    "a": 47,
+    "b": 63,
+    "kind": "near"
+   },
+   {
+    "a": 48,
+    "b": 56,
+    "kind": "near"
+   },
+   {
+    "a": 48,
+    "b": 49,
+    "kind": "near"
+   },
+   {
+    "a": 49,
+    "b": 57,
+    "kind": "near"
+   },
+   {
+    "a": 49,
+    "b": 50,
+    "kind": "near"
+   },
+   {
+    "a": 49,
+    "b": 56,
+    "kind": "near"
+   },
+   {
+    "a": 50,
+    "b": 58,
+    "kind": "near"
+   },
+   {
+    "a": 51,
+    "b": 59,
+    "kind": "near"
+   },
+   {
+    "a": 51,
+    "b": 52,
+    "kind": "near"
+   },
+   {
+    "a": 51,
+    "b": 58,
+    "kind": "near"
+   },
+   {
+    "a": 51,
+    "b": 60,
+    "kind": "near"
+   },
+   {
+    "a": 52,
+    "b": 60,
+    "kind": "near"
+   },
+   {
+    "a": 53,
+    "b": 54,
+    "kind": "near"
+   },
+   {
+    "a": 53,
+    "b": 61,
+    "kind": "near"
+   },
+   {
+    "a": 53,
+    "b": 62,
+    "kind": "near"
+   },
+   {
+    "a": 54,
+    "b": 62,
+    "kind": "near"
+   },
+   {
+    "a": 54,
+    "b": 55,
+    "kind": "near"
+   },
+   {
+    "a": 54,
+    "b": 61,
+    "kind": "near"
+   },
+   {
+    "a": 55,
+    "b": 63,
+    "kind": "near"
+   },
+   {
+    "a": 56,
+    "b": 57,
+    "kind": "near"
+   },
+   {
+    "a": 57,
+    "b": 58,
+    "kind": "near"
+   },
+   {
+    "a": 58,
+    "b": 59,
+    "kind": "near"
+   },
+   {
+    "a": 59,
+    "b": 60,
+    "kind": "near"
+   },
+   {
+    "a": 61,
+    "b": 62,
+    "kind": "near"
+   },
+   {
+    "a": 62,
+    "b": 63,
+    "kind": "near"
+   }
+  ]
+ },
+ "nodes": [
+  {
+   "name": "Marta",
+   "prior": 0.47405427068584627,
+   "stance": "against",
+   "belief": 0.47405427068584627,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Luis",
+   "prior": 0.24585449576439872,
+   "stance": "against",
+   "belief": 0.24585449576439872,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Ana",
+   "prior": 0.25869021040958917,
+   "stance": null,
+   "belief": 0.5118009678803167,
+   "believes": true,
+   "exposed_step": 2,
+   "shared_step": 2,
+   "received": 0,
+   "forwarded": 2,
+   "times_seen": 1,
+   "history": [
+    [
+     2,
+     0.5118009678803167
+    ]
+   ]
+  },
+  {
+   "name": "Jorge",
+   "prior": 0.4013648402552269,
+   "stance": "for",
+   "belief": 0.7868743593207632,
+   "believes": true,
+   "exposed_step": 1,
+   "shared_step": 1,
+   "received": 0,
+   "forwarded": 0,
+   "times_seen": 1,
+   "history": [
+    [
+     1,
+     0.7868743593207632
+    ]
+   ]
+  },
+  {
+   "name": "Carmen",
+   "prior": 0.3385449426278575,
+   "stance": null,
+   "belief": 0.6059249625595079,
+   "believes": false,
+   "exposed_step": 2,
+   "shared_step": 2,
+   "received": 0,
+   "forwarded": 3,
+   "times_seen": 1,
+   "history": [
+    [
+     2,
+     0.6059249625595079
+    ]
+   ]
+  },
+  {
+   "name": "Pablo",
+   "prior": 0.25908289623833713,
+   "stance": null,
+   "belief": 0.5123123416908826,
+   "believes": false,
+   "exposed_step": 3,
+   "shared_step": null,
+   "received": 3,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     3,
+     0.5123123416908826
+    ]
+   ]
+  },
+  {
+   "name": "Lucía",
+   "prior": 0.4748264290318801,
+   "stance": "against",
+   "belief": 0.4748264290318801,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Diego",
+   "prior": 0.3027823414971563,
+   "stance": null,
+   "belief": 0.5660901534154501,
+   "believes": true,
+   "exposed_step": 11,
+   "shared_step": null,
+   "received": 10,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     11,
+     0.5660901534154501
+    ]
+   ]
+  },
+  {
+   "name": "Elena",
+   "prior": 0.36463582903976755,
+   "stance": null,
+   "belief": 0.36463582903976755,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Tomás",
+   "prior": 0.3997645728925395,
+   "stance": "against",
+   "belief": 0.3997645728925395,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Sofía",
+   "prior": 0.3015367244006477,
+   "stance": null,
+   "belief": 0.5646385566024114,
+   "believes": false,
+   "exposed_step": 3,
+   "shared_step": null,
+   "received": 2,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     3,
+     0.5646385566024114
+    ]
+   ]
+  },
+  {
+   "name": "Raúl",
+   "prior": 0.304664330605826,
+   "stance": "against",
+   "belief": 0.8322311893205303,
+   "believes": true,
+   "exposed_step": 2,
+   "shared_step": 3,
+   "received": 3,
+   "forwarded": 3,
+   "times_seen": 3,
+   "history": [
+    [
+     2,
+     0.3546922939312266
+    ],
+    [
+     3,
+     0.8322311893205303
+    ]
+   ]
+  },
+  {
+   "name": "Inés",
+   "prior": 0.4712523261035637,
+   "stance": "against",
+   "belief": 0.8103025762693586,
+   "believes": false,
+   "exposed_step": 3,
+   "shared_step": null,
+   "received": 3,
+   "forwarded": null,
+   "times_seen": 2,
+   "history": [
+    [
+     3,
+     0.5870970189380809
+    ],
+    [
+     4,
+     0.8103025762693586
+    ]
+   ]
+  },
+  {
+   "name": "Martín",
+   "prior": 0.16678488771080763,
+   "stance": "against",
+   "belief": 0.16678488771080763,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Rosa",
+   "prior": 0.4165400878970046,
+   "stance": null,
+   "belief": 0.4165400878970046,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Hugo",
+   "prior": 0.3108940737109843,
+   "stance": "for",
+   "belief": 0.3108940737109843,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Julia",
+   "prior": 0.3387875613116754,
+   "stance": "against",
+   "belief": 0.3387875613116754,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Andrés",
+   "prior": 0.3116517051574513,
+   "stance": null,
+   "belief": 0.3116517051574513,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Paula",
+   "prior": 0.27893214641175623,
+   "stance": "for",
+   "belief": 0.6929166915713006,
+   "believes": true,
+   "exposed_step": 1,
+   "shared_step": null,
+   "received": 0,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     1,
+     0.6929166915713006
+    ]
+   ]
+  },
+  {
+   "name": "Iván",
+   "prior": 0.37645509307682357,
+   "stance": null,
+   "belief": 0.6445981501598672,
+   "believes": false,
+   "exposed_step": 4,
+   "shared_step": null,
+   "received": 3,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     4,
+     0.6445981501598672
+    ]
+   ]
+  },
+  {
+   "name": "Clara",
+   "prior": 0.18885376751328492,
+   "stance": null,
+   "belief": 0.18885376751328492,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Sergio",
+   "prior": 0.20866047498480753,
+   "stance": "against",
+   "belief": 0.20866047498480753,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Noelia",
+   "prior": 0.33294541765354296,
+   "stance": "against",
+   "belief": 0.33294541765354296,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Gabriel",
+   "prior": 0.3876132312344103,
+   "stance": null,
+   "belief": 0.3876132312344103,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Laura",
+   "prior": 0.44742902121984884,
+   "stance": "for",
+   "belief": 0.44742902121984884,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Héctor",
+   "prior": 0.4482056315686276,
+   "stance": "against",
+   "belief": 0.4482056315686276,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Valeria",
+   "prior": 0.1952057501871457,
+   "stance": "for",
+   "belief": 0.1952057501871457,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Óscar",
+   "prior": 0.44081608932936767,
+   "stance": "against",
+   "belief": 0.44081608932936767,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Irene",
+   "prior": 0.34482935811944126,
+   "stance": null,
+   "belief": 0.34482935811944126,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Manuel",
+   "prior": 0.32789518509680393,
+   "stance": "against",
+   "belief": 0.32789518509680393,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Beatriz",
+   "prior": 0.3294857162866943,
+   "stance": "against",
+   "belief": 0.3294857162866943,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Felipe",
+   "prior": 0.1835641291443698,
+   "stance": "for",
+   "belief": 0.1835641291443698,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Alicia",
+   "prior": 0.4396082765006375,
+   "stance": null,
+   "belief": 0.4396082765006375,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Ramón",
+   "prior": 0.199846200924451,
+   "stance": "for",
+   "belief": 0.6178150962872988,
+   "believes": true,
+   "exposed_step": 8,
+   "shared_step": null,
+   "received": 7,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     8,
+     0.6178150962872988
+    ]
+   ]
+  },
+  {
+   "name": "Silvia",
+   "prior": 0.30376321034550446,
+   "stance": "against",
+   "belief": 0.30376321034550446,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Emilio",
+   "prior": 0.32595021718125006,
+   "stance": null,
+   "belief": 0.8135797910086768,
+   "believes": true,
+   "exposed_step": 5,
+   "shared_step": 6,
+   "received": 4,
+   "forwarded": 5,
+   "times_seen": 2,
+   "history": [
+    [
+     5,
+     0.5922901084977166
+    ],
+    [
+     6,
+     0.8135797910086768
+    ]
+   ]
+  },
+  {
+   "name": "Teresa",
+   "prior": 0.20852463880781644,
+   "stance": null,
+   "belief": 0.7039457244592134,
+   "believes": true,
+   "exposed_step": 5,
+   "shared_step": null,
+   "received": 5,
+   "forwarded": null,
+   "times_seen": 2,
+   "history": [
+    [
+     5,
+     0.4418045590203377
+    ],
+    [
+     7,
+     0.7039457244592134
+    ]
+   ]
+  },
+  {
+   "name": "Nicolás",
+   "prior": 0.17233273850197525,
+   "stance": "against",
+   "belief": 0.17233273850197525,
+   "believes": false,
+   "exposed_step": null,
+   "shared_step": null,
+   "received": null,
+   "forwarded": null,
+   "times_seen": 0,
+   "history": []
+  },
+  {
+   "name": "Patricia",
+   "prior": 0.1859681926849609,
+   "stance": "for",
+   "belief": 0.8203449707492051,
+   "believes": true,
+   "exposed_step": 9,
+   "shared_step": null,
+   "received": 5,
+   "forwarded": null,
+   "times_seen": 2,
+   "history": [
+    [
+     9,
+     0.6031688837928338
+    ],
+    [
+     10,
+     0.8203449707492051
+    ]
+   ]
+  },
+  {
+   "name": "Ricardo",
+   "prior": 0.17276250848523428,
+   "stance": "against",
+   "belief": 0.06539886830237114,
+   "believes": false,
+   "exposed_step": 10,
+   "shared_step": null,
+   "received": 5,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     10,
+     0.06539886830237114
+    ]
+   ]
+  },
+  {
+   "name": "Lorena",
+   "prior": 0.3612087973737526,
+   "stance": "against",
+   "belief": 0.44580018932499255,
+   "believes": false,
+   "exposed_step": 8,
+   "shared_step": null,
+   "received": 7,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     8,
+     0.44580018932499255
+    ]
+   ]
+  },
+  {
+   "name": "Javier",
+   "prior": 0.48095407513640365,
+   "stance": "for",
+   "belief": 0.8370324836887637,
+   "believes": true,
+   "exposed_step": 7,
+   "shared_step": 7,
+   "received": 6,
+   "forwarded": 7,
+   "times_seen": 1,
+   "history": [
+    [
+     7,
+     0.8370324836887637
+    ]
+   ]
+  },
+  {
+   "name": "Celia",
+   "prior": 0.15539961448765172,
+   "stance": "for",
+   "belief": 0.5691255802737669,
+   "believes": true,
+   "exposed_step": 6,
+   "shared_step": 6,
+   "received": 4,
+   "forwarded": 6,
+   "times_seen": 1,
+   "history": [
+    [
+     6,
+     0.5691255802737669
+    ]
+   ]
+  },
+  {
+   "name": "Mateo",
+   "prior": 0.3531682581499772,
+   "stance": "against",
+   "belief": 0.6970714509140377,
+   "believes": true,
+   "exposed_step": 1,
+   "shared_step": 5,
+   "received": 4,
+   "forwarded": 4,
+   "times_seen": 2,
+   "history": [
+    [
+     1,
+     0.43373975731795905
+    ],
+    [
+     5,
+     0.6970714509140377
+    ]
+   ]
+  },
+  {
+   "name": "Adriana",
+   "prior": 0.39065344207049113,
+   "stance": "for",
+   "belief": 0.7795375601278561,
+   "believes": false,
+   "exposed_step": 4,
+   "shared_step": 4,
+   "received": 4,
+   "forwarded": 4,
+   "times_seen": 1,
+   "history": [
+    [
+     4,
+     0.7795375601278561
+    ]
+   ]
+  },
+  {
+   "name": "Rubén",
+   "prior": 0.1912894111675217,
+   "stance": "against",
+   "belief": 0.5386767884989657,
+   "believes": true,
+   "exposed_step": 8,
+   "shared_step": null,
+   "received": 8,
+   "forwarded": null,
+   "times_seen": 3,
+   "history": [
+    [
+     8,
+     0.11456028678749271
+    ],
+    [
+     9,
+     0.5386767884989657
+    ]
+   ]
+  },
+  {
+   "name": "Gloria",
+   "prior": 0.4761613855860165,
+   "stance": "for",
+   "belief": 0.8342128640180504,
+   "believes": false,
+   "exposed_step": 8,
+   "shared_step": 8,
+   "received": 5,
+   "forwarded": 8,
+   "times_seen": 1,
+   "history": [
+    [
+     8,
+     0.8342128640180504
+    ]
+   ]
+  },
+  {
+   "name": "Daniel",
+   "prior": 0.22631582069417527,
+   "stance": null,
+   "belief": 0.4677368165577127,
+   "believes": false,
+   "exposed_step": 9,
+   "shared_step": 9,
+   "received": 5,
+   "forwarded": 5,
+   "times_seen": 1,
+   "history": [
+    [
+     9,
+     0.4677368165577127
+    ]
+   ]
+  },
+  {
+   "name": "Mónica",
+   "prior": 0.361434388332721,
+   "stance": null,
+   "belief": 0.6296827609680082,
+   "believes": false,
+   "exposed_step": 9,
+   "shared_step": null,
+   "received": 7,
+   "forwarded": null,
+   "times_seen": 1,
+   "history": [
+    [
+     9,
+     0.6296827609680082
+    ]
+   ]
+  },
+  {
+   "name": "Alberto",
+   "prior": 0.4454350436943999,
+   "stance": null,
+   "belief": 0.878773606352493,
+   "believes": true,
+   "exposed_step": 8,
+   "shared_step": 8,
+   "received": 7,
+   "forwarded": 7,
+   "times_seen": 2,
+   "history": [
+    [
+     8,
+     0.878773606352493
+    ]
+   ]
+  },
+  {
+   "name": "Victoria",
+   "prior": 0.28566102347878697,
+   "stance": null,
+   "belief": 0.7830361763105324,
+   "believes": true,
+   "exposed_step": 3,
+   "shared_step": 7,
+   "received": 6,
+   "forwarded": 6,
+   "times_seen": 2,
+   "history": [
+    [
+     3,
+     0.5457338811471412
+    ],
+    [
+     7,
+     0.7830361763105324
+    ]
+   ]
+  },
+  {
+   "name": "Ernesto",
+   "prior": 0.4553293934657887,
+   "stance": "for",
+   "belief": 0.9,
+   "believes": true,
+   "exposed_step": 0,
+   "shared_step": 0,
+   "received": 0,
+   "forwarded": 0,
+   "times_seen": 1,
+   "history": []
+  },
+  {
+   "name": "Pilar",
+   "prior": 0.35598082749741516,
+   "stance": null,
+   "belief": 0.8330150996304171,
+   "believes": false,
+   "exposed_step": 1,
+   "shared_step": 3,
+   "received": 4,
+   "forwarded": 4,
+   "times_seen": 2,
+   "history": [
+    [
+     1,
+     0.6241377500233077
+    ],
+    [
+     3,
+     0.8330150996304171
+    ]
+   ]
+  },
+  {
+   "name": "Gustavo",
+   "prior": 0.40860606523637166,
+   "stance": null,
+   "belief": 0.6748643383114242,
+   "believes": true,
+   "exposed_step": 8,
+   "shared_step": 8,
+   "received": 5,
+   "forwarded": 5,
+   "times_seen": 1,
+   "history": [
+    [
+     8,
+     0.6748643383114242
+    ]
+   ]
+  },
+  {
+   "name": "Natalia",
+   "prior": 0.30629575687642263,
+   "stance": "against",
+   "belief": 0.3575412389032826,
+   "believes": true,
+   "exposed_step": 7,
+   "shared_step": 7,
+   "received": 5,
+   "forwarded": 5,
+   "times_seen": 1,
+   "history": [
+    [
+     7,
+     0.3575412389032826
+    ]
+   ]
+  },
+  {
+   "name": "Fernando",
+   "prior": 0.2575915728339492,
+   "stance": "against",
+   "belief": 0.2658889481531365,
+   "believes": false,
+   "exposed_step": 8,
+   "shared_step": 8,
+   "received": 5,
+   "forwarded": 5,
+   "times_seen": 1,
+   "history": [
+    [
+     8,
+     0.2658889481531365
+    ]
+   ]
+  },
+  {
+   "name": "Olga",
+   "prior": 0.33106172366166686,
+   "stance": "against",
+   "belief": 0.6661513769276202,
+   "believes": false,
+   "exposed_step": 9,
+   "shared_step": null,
+   "received": 9,
+   "forwarded": null,
+   "times_seen": 2,
+   "history": [
+    [
+     9,
+     0.3991109815578605
+    ],
+    [
+     10,
+     0.6661513769276202
+    ]
+   ]
+  },
+  {
+   "name": "Ignacio",
+   "prior": 0.31891798158994883,
+   "stance": "against",
+   "belief": 0.6471841880739596,
+   "believes": false,
+   "exposed_step": 3,
+   "shared_step": 9,
+   "received": 7,
+   "forwarded": 9,
+   "times_seen": 2,
+   "history": [
+    [
+     3,
+     0.37911290108483886
+    ],
+    [
+     9,
+     0.6471841880739596
+    ]
+   ]
+  },
+  {
+   "name": "Susana",
+   "prior": 0.49301826674681826,
+   "stance": null,
+   "belief": 0.8977133141558743,
+   "believes": true,
+   "exposed_step": 1,
+   "shared_step": 2,
+   "received": 1,
+   "forwarded": 1,
+   "times_seen": 2,
+   "history": [
+    [
+     1,
+     0.744990611037659
+    ],
+    [
+     2,
+     0.8977133141558743
+    ]
+   ]
+  },
+  {
+   "name": "Ángel",
+   "prior": 0.49661121731436886,
+   "stance": "for",
+   "belief": 0.8460794093043047,
+   "believes": false,
+   "exposed_step": 1,
+   "shared_step": 1,
+   "received": 0,
+   "forwarded": 1,
+   "times_seen": 1,
+   "history": [
+    [
+     1,
+     0.8460794093043047
+    ]
+   ]
+  },
+  {
+   "name": "Marina",
+   "prior": 0.21427215696565566,
+   "stance": "against",
+   "belief": 0.3826776964268565,
+   "believes": true,
+   "exposed_step": 1,
+   "shared_step": 2,
+   "received": 1,
+   "forwarded": 4,
+   "times_seen": 2,
+   "history": [
+    [
+     1,
+     0.17105081954125256
+    ],
+    [
+     2,
+     0.3826776964268565
+    ]
+   ]
+  },
+  {
+   "name": "Esteban",
+   "prior": 0.45608746904609243,
+   "stance": null,
+   "belief": 0.7158353103823275,
+   "believes": true,
+   "exposed_step": 8,
+   "shared_step": 8,
+   "received": 5,
+   "forwarded": 5,
+   "times_seen": 1,
+   "history": [
+    [
+     8,
+     0.7158353103823275
+    ]
+   ]
+  },
+  {
+   "name": "Eva",
+   "prior": 0.16323210406453278,
+   "stance": "for",
+   "belief": 0.5780925692615687,
+   "believes": false,
+   "exposed_step": 8,
+   "shared_step": 8,
+   "received": 5,
+   "forwarded": 5,
+   "times_seen": 1,
+   "history": [
+    [
+     8,
+     0.5780925692615687
+    ]
+   ]
+  },
+  {
+   "name": "Bruno",
+   "prior": 0.2145609627280366,
+   "stance": "for",
+   "belief": 0.9395950330374861,
+   "believes": true,
+   "exposed_step": 9,
+   "shared_step": 10,
+   "received": 5,
+   "forwarded": 10,
+   "times_seen": 3,
+   "history": [
+    [
+     9,
+     0.8381297225192904
+    ],
+    [
+     10,
+     0.9395950330374861
+    ]
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "id": 0,
+   "parent": null,
+   "text": "Starting next month the neighborhood council will fine anyone who leaves their bins on the sidewalk after 8am.",
+   "author": null,
+   "step": 0,
+   "mutation": "original",
+   "emotion": 0.13,
+   "extremity": 1.32
+  },
+  {
+   "id": 1,
+   "parent": 0,
+   "text": "I heard Mrs. Higgins say the council is finally cracking down, so expect fines starting next month if your bins are still out after 8am. It’s about time they started enforcing this properly!",
+   "author": 59,
+   "step": 1,
+   "mutation": "add_detail",
+   "emotion": 1.08,
+   "extremity": 0.9
+  },
+  {
+   "id": 2,
+   "parent": 0,
+   "text": "Heads up everyone, the council is officially launching a massive crackdown and will be issuing heavy fines to anyone whose bins are even an inch past their property line after 8am. It sounds like they’re planning to patrol the entire neighborhood daily to catch us all!",
+   "author": 2,
+   "step": 2,
+   "mutation": "exaggerate",
+   "emotion": 3.4699999999999998,
+   "extremity": 3.77
+  },
+  {
+   "id": 3,
+   "parent": 0,
+   "text": "The neighborhood council is officially cracking down and will be issuing heavy fines to anyone who leaves their bins out past 8am starting next month. Please be extremely careful, as they are apparently monitoring every single house now!",
+   "author": 4,
+   "step": 2,
+   "mutation": "exaggerate",
+   "emotion": 2.95,
+   "extremity": 3.44
+  },
+  {
+   "id": 4,
+   "parent": 1,
+   "text": "The council is officially launching a massive crackdown and will be aggressively fining anyone with a bin out after 8am starting next month. They are clearly obsessed with finding new ways to control us and hit us with heavy penalties.",
+   "author": 60,
+   "step": 2,
+   "mutation": "exaggerate",
+   "emotion": 3.31,
+   "extremity": 3.25
+  },
+  {
+   "id": 5,
+   "parent": 4,
+   "text": "I just heard from a contact who works directly at the council that they’re starting a massive crackdown on bins left out after 8am next month. It sounds like they’re really looking for ways to hit us with fines, so we should probably be careful.",
+   "author": 35,
+   "step": 6,
+   "mutation": "change_source",
+   "emotion": 1.81,
+   "extremity": 2.2800000000000002
+  },
+  {
+   "id": 6,
+   "parent": 4,
+   "text": "The council is launching a ruthless, city-wide crackdown to hunt down every single bin left out, and they will be issuing massive, unavoidable fines to everyone starting next month. They are completely determined to punish us with these predatory penalties for the slightest infraction.",
+   "author": 42,
+   "step": 6,
+   "mutation": "exaggerate",
+   "emotion": 3.7800000000000002,
+   "extremity": 3.9899999999999998
+  },
+  {
+   "id": 7,
+   "parent": 6,
+   "text": "I just heard from a contact inside the city council that they are launching a strict crackdown on bins left on sidewalks, with massive fines starting next month. It’s about time they finally started enforcing these rules properly.",
+   "author": 41,
+   "step": 7,
+   "mutation": "change_source",
+   "emotion": 1.09,
+   "extremity": 2.14
+  },
+  {
+   "id": 8,
+   "parent": 5,
+   "text": "I just heard from a senior council official that they’re starting a massive crackdown on bins left out after 8am next month. They are apparently looking for ways to issue fines, so we really need to be careful.",
+   "author": 46,
+   "step": 8,
+   "mutation": "change_source",
+   "emotion": 1.46,
+   "extremity": 2.4400000000000004
+  },
+  {
+   "id": 9,
+   "parent": 7,
+   "text": "I heard from a reliable contact in the city planning department that they’re actually planning to crack down on bins left on sidewalks with heavy fines next month. It sounds like another overreach, but they seem determined to enforce it this time.",
+   "author": 57,
+   "step": 9,
+   "mutation": "change_source",
+   "emotion": 1.08,
+   "extremity": 1.1800000000000002
+  },
+  {
+   "id": 10,
+   "parent": 5,
+   "text": "The council is officially launching a ruthless campaign of aggressive fines for any bin left out past 8am. They are actively hunting for reasons to penalize us, so expect zero tolerance and immediate enforcement starting next month.",
+   "author": 63,
+   "step": 10,
+   "mutation": "exaggerate",
+   "emotion": 3.3899999999999997,
+   "extremity": 3.8099999999999996
+  }
+ ],
+ "events": [
+  {
+   "step": 0,
+   "node": 51,
+   "from": null,
+   "variant": 0,
+   "kind": "seed"
+  },
+  {
+   "step": 1,
+   "node": 3,
+   "from": 51,
+   "variant": 0,
+   "belief": 0.7868743593207632,
+   "believes": true,
+   "p_share": 0.6135471343617408,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 0
+  },
+  {
+   "step": 1,
+   "node": 18,
+   "from": 51,
+   "variant": 0,
+   "belief": 0.6929166915713006,
+   "believes": true,
+   "p_share": 0.5122059351951253,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 1,
+   "node": 43,
+   "from": 51,
+   "variant": 0,
+   "belief": 0.43373975731795905,
+   "believes": false,
+   "p_share": 0.2513274437220856,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 1,
+   "node": 52,
+   "from": 51,
+   "variant": 0,
+   "belief": 0.6241377500233077,
+   "believes": false,
+   "p_share": 0.43688991238785646,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 1,
+   "node": 58,
+   "from": 51,
+   "variant": 0,
+   "belief": 0.744990611037659,
+   "believes": true,
+   "p_share": 0.5690456983616979,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 1,
+   "node": 59,
+   "from": 51,
+   "variant": 0,
+   "belief": 0.8460794093043047,
+   "believes": false,
+   "p_share": 0.673212166334586,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "add_detail",
+   "forwarded": 1
+  },
+  {
+   "step": 1,
+   "node": 60,
+   "from": 51,
+   "variant": 0,
+   "belief": 0.17105081954125256,
+   "believes": false,
+   "p_share": 0.09557601214057322,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 2,
+   "node": 2,
+   "from": 3,
+   "variant": 0,
+   "belief": 0.5118009678803167,
+   "believes": true,
+   "p_share": 0.32124073164076383,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "exaggerate",
+   "forwarded": 2
+  },
+  {
+   "step": 2,
+   "node": 4,
+   "from": 3,
+   "variant": 0,
+   "belief": 0.6059249625595079,
+   "believes": false,
+   "p_share": 0.4172846619433673,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "exaggerate",
+   "forwarded": 3
+  },
+  {
+   "step": 2,
+   "node": 11,
+   "from": 3,
+   "variant": 0,
+   "belief": 0.3546922939312266,
+   "believes": true,
+   "p_share": 0.19164541974914984,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 2,
+   "node": 58,
+   "from": 59,
+   "variant": 1,
+   "belief": 0.8977133141558743,
+   "believes": true,
+   "p_share": 0.7211028262566738,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 1
+  },
+  {
+   "step": 2,
+   "node": 60,
+   "from": 59,
+   "variant": 1,
+   "belief": 0.3826776964268565,
+   "believes": true,
+   "p_share": 0.2114481852684329,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "exaggerate",
+   "forwarded": 4
+  },
+  {
+   "step": 3,
+   "node": 5,
+   "from": 4,
+   "variant": 3,
+   "belief": 0.5123123416908826,
+   "believes": false,
+   "p_share": 0.32173154013496,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 3,
+   "node": 10,
+   "from": 2,
+   "variant": 2,
+   "belief": 0.5646385566024114,
+   "believes": false,
+   "p_share": 0.37388393389667185,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 3,
+   "node": 11,
+   "from": 4,
+   "variant": 3,
+   "belief": 0.8322311893205303,
+   "believes": true,
+   "p_share": 0.6596684864184594,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 3
+  },
+  {
+   "step": 3,
+   "node": 12,
+   "from": 4,
+   "variant": 3,
+   "belief": 0.5870970189380809,
+   "believes": true,
+   "p_share": 0.3972891722372348,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 3,
+   "node": 50,
+   "from": 58,
+   "variant": 1,
+   "belief": 0.5457338811471412,
+   "believes": true,
+   "p_share": 0.35462493754661095,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 3,
+   "node": 52,
+   "from": 60,
+   "variant": 4,
+   "belief": 0.8330150996304171,
+   "believes": false,
+   "p_share": 0.660442426630726,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 4
+  },
+  {
+   "step": 3,
+   "node": 57,
+   "from": 58,
+   "variant": 1,
+   "belief": 0.37911290108483886,
+   "believes": true,
+   "p_share": 0.20884472205280225,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 4,
+   "node": 12,
+   "from": 11,
+   "variant": 3,
+   "belief": 0.8103025762693586,
+   "believes": false,
+   "p_share": 0.6376852088095163,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 4,
+   "node": 19,
+   "from": 11,
+   "variant": 3,
+   "belief": 0.6445981501598672,
+   "believes": false,
+   "p_share": 0.4591492258820194,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 4,
+   "node": 44,
+   "from": 52,
+   "variant": 4,
+   "belief": 0.7795375601278561,
+   "believes": false,
+   "p_share": 0.6058653738995342,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 4
+  },
+  {
+   "step": 5,
+   "node": 35,
+   "from": 44,
+   "variant": 4,
+   "belief": 0.5922901084977166,
+   "believes": false,
+   "p_share": 0.40277315039098677,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 5,
+   "node": 36,
+   "from": 44,
+   "variant": 4,
+   "belief": 0.4418045590203377,
+   "believes": false,
+   "p_share": 0.25806312491892763,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 5,
+   "node": 43,
+   "from": 44,
+   "variant": 4,
+   "belief": 0.6970714509140377,
+   "believes": true,
+   "p_share": 0.5167723007984822,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 4
+  },
+  {
+   "step": 6,
+   "node": 35,
+   "from": 43,
+   "variant": 4,
+   "belief": 0.8135797910086768,
+   "believes": true,
+   "p_share": 0.6410101279359072,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "change_source",
+   "forwarded": 5
+  },
+  {
+   "step": 6,
+   "node": 42,
+   "from": 43,
+   "variant": 4,
+   "belief": 0.5691255802737669,
+   "believes": true,
+   "p_share": 0.3785170293110925,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "exaggerate",
+   "forwarded": 6
+  },
+  {
+   "step": 7,
+   "node": 36,
+   "from": 35,
+   "variant": 5,
+   "belief": 0.7039457244592134,
+   "believes": true,
+   "p_share": 0.5243210878999286,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 7,
+   "node": 41,
+   "from": 42,
+   "variant": 6,
+   "belief": 0.8370324836887637,
+   "believes": true,
+   "p_share": 0.664395211664486,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "change_source",
+   "forwarded": 7
+  },
+  {
+   "step": 7,
+   "node": 50,
+   "from": 42,
+   "variant": 6,
+   "belief": 0.7830361763105324,
+   "believes": true,
+   "p_share": 0.6095352715501716,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 6
+  },
+  {
+   "step": 7,
+   "node": 54,
+   "from": 35,
+   "variant": 5,
+   "belief": 0.3575412389032826,
+   "believes": true,
+   "p_share": 0.19359487523315155,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 5
+  },
+  {
+   "step": 8,
+   "node": 33,
+   "from": 41,
+   "variant": 7,
+   "belief": 0.6178150962872988,
+   "believes": true,
+   "p_share": 0.43005823079795275,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 8,
+   "node": 40,
+   "from": 41,
+   "variant": 7,
+   "belief": 0.44580018932499255,
+   "believes": false,
+   "p_share": 0.2614435462514199,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 8,
+   "node": 45,
+   "from": 54,
+   "variant": 5,
+   "belief": 0.11456028678749271,
+   "believes": false,
+   "p_share": 0.07614366183486483,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 8,
+   "node": 46,
+   "from": 54,
+   "variant": 5,
+   "belief": 0.8342128640180504,
+   "believes": false,
+   "p_share": 0.6616233028812105,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "change_source",
+   "forwarded": 8
+  },
+  {
+   "step": 8,
+   "node": 49,
+   "from": 41,
+   "variant": 7,
+   "belief": 0.878773606352493,
+   "believes": true,
+   "p_share": 0.704038542524884,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 7
+  },
+  {
+   "step": 8,
+   "node": 53,
+   "from": 54,
+   "variant": 5,
+   "belief": 0.6748643383114242,
+   "believes": true,
+   "p_share": 0.49235136883547337,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 5
+  },
+  {
+   "step": 8,
+   "node": 55,
+   "from": 54,
+   "variant": 5,
+   "belief": 0.2658889481531365,
+   "believes": false,
+   "p_share": 0.138227715379441,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 5
+  },
+  {
+   "step": 8,
+   "node": 61,
+   "from": 54,
+   "variant": 5,
+   "belief": 0.7158353103823275,
+   "believes": true,
+   "p_share": 0.5373491405948856,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 5
+  },
+  {
+   "step": 8,
+   "node": 62,
+   "from": 54,
+   "variant": 5,
+   "belief": 0.5780925692615687,
+   "believes": false,
+   "p_share": 0.38784192490018526,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 5
+  },
+  {
+   "step": 9,
+   "node": 38,
+   "from": 46,
+   "variant": 8,
+   "belief": 0.6031688837928338,
+   "believes": true,
+   "p_share": 0.4143389352672629,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 9,
+   "node": 45,
+   "from": 46,
+   "variant": 8,
+   "belief": 0.5386767884989657,
+   "believes": true,
+   "p_share": 0.3475508702464868,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 9,
+   "node": 47,
+   "from": 55,
+   "variant": 5,
+   "belief": 0.4677368165577127,
+   "believes": false,
+   "p_share": 0.2805050039902339,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "verbatim",
+   "forwarded": 5
+  },
+  {
+   "step": 9,
+   "node": 48,
+   "from": 49,
+   "variant": 7,
+   "belief": 0.6296827609680082,
+   "believes": false,
+   "p_share": 0.4429012076319408,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 9,
+   "node": 56,
+   "from": 49,
+   "variant": 7,
+   "belief": 0.3991109815578605,
+   "believes": false,
+   "p_share": 0.2237558350240708,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 9,
+   "node": 57,
+   "from": 49,
+   "variant": 7,
+   "belief": 0.6471841880739596,
+   "believes": false,
+   "p_share": 0.4619761627227578,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "change_source",
+   "forwarded": 9
+  },
+  {
+   "step": 9,
+   "node": 63,
+   "from": 55,
+   "variant": 5,
+   "belief": 0.8381297225192904,
+   "believes": true,
+   "p_share": 0.6654708421250234,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 10,
+   "node": 38,
+   "from": 47,
+   "variant": 5,
+   "belief": 0.8203449707492051,
+   "believes": true,
+   "p_share": 0.6478308141625226,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 10,
+   "node": 39,
+   "from": 47,
+   "variant": 5,
+   "belief": 0.06539886830237114,
+   "believes": false,
+   "p_share": 0.06225466281140701,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 10,
+   "node": 56,
+   "from": 57,
+   "variant": 9,
+   "belief": 0.6661513769276202,
+   "believes": false,
+   "p_share": 0.4827733356788954,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  },
+  {
+   "step": 10,
+   "node": 63,
+   "from": 47,
+   "variant": 5,
+   "belief": 0.9395950330374861,
+   "believes": true,
+   "p_share": 0.7566165025640612,
+   "shares": true,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   },
+   "mutation": "exaggerate",
+   "forwarded": 10
+  },
+  {
+   "step": 11,
+   "node": 7,
+   "from": 63,
+   "variant": 10,
+   "belief": 0.5660901534154501,
+   "believes": true,
+   "p_share": 0.37538030331713,
+   "shares": false,
+   "mutation_probs": {
+    "verbatim": 0.5,
+    "exaggerate": 0.2,
+    "soften": 0.1,
+    "add_detail": 0.1,
+    "change_source": 0.1
+   }
+  }
+ ],
+ "metrics": [
+  {
+   "step": 0,
+   "shared": 0.015625,
+   "exposed": 0.015625,
+   "believe": 0.015625,
+   "uncertainty": 0.8683719778866195,
+   "variants": 1,
+   "new_shares": 1,
+   "emotion": 0.13,
+   "extremity": 1.32
+  },
+  {
+   "step": 1,
+   "shared": 0.046875,
+   "exposed": 0.125,
+   "believe": 0.09375,
+   "uncertainty": 0.8562946540442165,
+   "variants": 2,
+   "new_shares": 2,
+   "emotion": 0.605,
+   "extremity": 1.11
+  },
+  {
+   "step": 2,
+   "shared": 0.109375,
+   "exposed": 0.171875,
+   "believe": 0.125,
+   "uncertainty": 0.8598408159041886,
+   "variants": 5,
+   "new_shares": 4,
+   "emotion": 2.7025,
+   "extremity": 2.84
+  },
+  {
+   "step": 3,
+   "shared": 0.140625,
+   "exposed": 0.25,
+   "believe": 0.203125,
+   "uncertainty": 0.857567949678607,
+   "variants": 5,
+   "new_shares": 2,
+   "emotion": 3.13,
+   "extremity": 3.3449999999999998
+  },
+  {
+   "step": 4,
+   "shared": 0.15625,
+   "exposed": 0.28125,
+   "believe": 0.234375,
+   "uncertainty": 0.8497856005831181,
+   "variants": 5,
+   "new_shares": 1,
+   "emotion": 3.31,
+   "extremity": 3.25
+  },
+  {
+   "step": 5,
+   "shared": 0.171875,
+   "exposed": 0.3125,
+   "believe": 0.265625,
+   "uncertainty": 0.8531238290088436,
+   "variants": 5,
+   "new_shares": 1,
+   "emotion": 3.31,
+   "extremity": 3.25
+  },
+  {
+   "step": 6,
+   "shared": 0.203125,
+   "exposed": 0.328125,
+   "believe": 0.28125,
+   "uncertainty": 0.8543991260750703,
+   "variants": 7,
+   "new_shares": 2,
+   "emotion": 2.795,
+   "extremity": 3.135
+  },
+  {
+   "step": 7,
+   "shared": 0.25,
+   "exposed": 0.359375,
+   "believe": 0.3125,
+   "uncertainty": 0.8441025193670539,
+   "variants": 8,
+   "new_shares": 3,
+   "emotion": 2.2266666666666666,
+   "extremity": 2.8033333333333332
+  },
+  {
+   "step": 8,
+   "shared": 0.34375,
+   "exposed": 0.5,
+   "believe": 0.40625,
+   "uncertainty": 0.8353485189818302,
+   "variants": 9,
+   "new_shares": 6,
+   "emotion": 1.6316666666666668,
+   "extremity": 2.2833333333333337
+  },
+  {
+   "step": 9,
+   "shared": 0.375,
+   "exposed": 0.578125,
+   "believe": 0.484375,
+   "uncertainty": 0.8496140559924226,
+   "variants": 10,
+   "new_shares": 2,
+   "emotion": 1.445,
+   "extremity": 1.7300000000000002
+  },
+  {
+   "step": 10,
+   "shared": 0.390625,
+   "exposed": 0.59375,
+   "believe": 0.5,
+   "uncertainty": 0.8345117229190475,
+   "variants": 11,
+   "new_shares": 1,
+   "emotion": 3.3899999999999997,
+   "extremity": 3.8099999999999996
+  },
+  {
+   "step": 11,
+   "shared": 0.390625,
+   "exposed": 0.609375,
+   "believe": 0.515625,
+   "uncertainty": 0.8361163237735164,
+   "variants": 11,
+   "new_shares": 0,
+   "emotion": null,
+   "extremity": null
+  }
+ ]
+}

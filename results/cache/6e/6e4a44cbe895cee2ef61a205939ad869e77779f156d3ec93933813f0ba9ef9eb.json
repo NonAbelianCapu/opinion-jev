@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Diego, who usually doubts neighborhood rumors.\nDiego trusts the staff who run the municipal pool.\nSource: Bruno, a contact of Diego in the neighborhood chat.\nMessage: \"I’ve heard some talk that the pool might be in bad shape, though who knows if it’s actually true. Maybe hold off on going today just to be safe.\"\nContext: 1 of Diego's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r9:s11:n7",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.16
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.23
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.91,
+    "probabilities": {
+     "verbatim": 0.04,
+     "exaggerate": 0.01,
+     "soften": 0.93,
+     "add_detail": 0.0,
+     "change_source": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 577,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:57.890995+00:00"
+}

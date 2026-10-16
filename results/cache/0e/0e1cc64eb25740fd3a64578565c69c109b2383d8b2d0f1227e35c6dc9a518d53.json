@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The municipal pool is being shut down indefinitely because the water is officially considered a major health hazard. I knew their pathetic maintenance would finally lead to a total disaster like this.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.38,
+    "confidence": 0.62,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.04,
+     "2": 0.56,
+     "3": 0.39,
+     "4": 0.01
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.97,
+    "confidence": 0.45,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.05,
+     "2": 0.24,
+     "3": 0.39,
+     "4": 0.32
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 414,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:15.027183+00:00"
+}

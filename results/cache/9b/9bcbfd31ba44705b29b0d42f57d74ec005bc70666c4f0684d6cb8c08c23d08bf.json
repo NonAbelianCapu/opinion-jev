@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Rosa, who is cautious about neighborhood rumors but sometimes believes them. Rosa thinks the council already has too many rules.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"Mrs. Gable just spotted a patrol car staking out Elm Street at 3:00 AM, so get ready for the council’s aggressive new crackdown. They’re clearly tightening their grip and will be hunting down anyone who doesn't follow these ridiculous bin rules.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I heard a rumor that a patrol car was seen on Elm Street, though I’m not sure if it’s actually related to the council’s bin rules. It feels like they might be getting stricter, but hopefully it’s not as bad as people are saying.",
+ "usage": {
+  "prompt_tokens": 159,
+  "completion_tokens": 56,
+  "total_tokens": 215,
+  "cost": 0.00012375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00012375,
+   "upstream_inference_prompt_cost": 3.975e-05,
+   "upstream_inference_completions_cost": 8.4e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r10:s9:n14",
+ "fetched_at": "2026-10-16T15:07:26.875092+00:00"
+}

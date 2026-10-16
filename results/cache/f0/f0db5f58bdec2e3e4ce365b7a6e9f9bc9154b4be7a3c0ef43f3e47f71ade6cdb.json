@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Patricia, who usually doubts neighborhood rumors.\nPatricia trusts the staff who run the municipal pool.\nSource: Nicolás, a contact of Patricia in the neighborhood chat.\nMessage: \"The city is finally admitting the pool is a toxic death trap that’s been rotting for years. It’s collapsing as we speak and will be boarded up forever because they’ve completely destroyed it.\"\nContext: 1 of Patricia's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r6:s5:n38",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.12
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.14
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 1.0,
+    "probabilities": {
+     "verbatim": 0.0,
+     "exaggerate": 0.0,
+     "soften": 1.0,
+     "add_detail": 0.0,
+     "change_source": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 584,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:27.437572+00:00"
+}

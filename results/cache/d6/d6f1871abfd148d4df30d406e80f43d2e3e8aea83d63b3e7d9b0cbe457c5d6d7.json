@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Héctor, who is cautious about neighborhood rumors but sometimes believes them. Héctor thinks the council should be stricter about bins on the sidewalk.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I’ve heard some talk about the council potentially stepping up bin enforcement, though it’s hard to know if the rumors about property seizures are actually true. It does feel like they’re already overreaching with all these rules, so we might want to keep an eye on things.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I’ve heard some rumors that the council might be looking into stricter bin rules, though I'm not sure how much of that is actually confirmed. It's probably worth keeping an eye on, just in case they decide to start enforcing things more heavily.",
+ "usage": {
+  "prompt_tokens": 165,
+  "completion_tokens": 53,
+  "total_tokens": 218,
+  "cost": 0.00012075,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00012075,
+   "upstream_inference_prompt_cost": 4.125e-05,
+   "upstream_inference_completions_cost": 7.95e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r1:s6:n25",
+ "fetched_at": "2026-10-16T14:57:45.528385+00:00"
+}

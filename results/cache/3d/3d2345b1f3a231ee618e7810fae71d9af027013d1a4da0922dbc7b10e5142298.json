@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The council is officially launching a massive crackdown next month to fine anyone with a bin on the sidewalk, so prepare for them to start hunting us down. They’re finally imposing their total control over our streets, and it's only going to get stricter from here.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 3.81,
+    "confidence": 0.83,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.02,
+     "3": 0.16,
+     "4": 0.82
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.63,
+    "confidence": 0.69,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.02,
+     "3": 0.33,
+     "4": 0.65
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 433,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:06:29.489416+00:00"
+}

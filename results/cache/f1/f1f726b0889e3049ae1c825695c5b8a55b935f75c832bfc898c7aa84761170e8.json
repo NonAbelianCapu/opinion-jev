@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Mr. Henderson confirmed that the council is officially launching a massive crackdown and will be handing out heavy fines to anyone with a bin on the sidewalk after 8am. It’s absolutely ridiculous how they keep tightening their grip on us!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.41,
+    "confidence": 0.6,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.03,
+     "2": 0.54,
+     "3": 0.41,
+     "4": 0.02
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.32,
+    "confidence": 0.43,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.11,
+     "3": 0.43,
+     "4": 0.45
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 426,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:00:03.164434+00:00"
+}

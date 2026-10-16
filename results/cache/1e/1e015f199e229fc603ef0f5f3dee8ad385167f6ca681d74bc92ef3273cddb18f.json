@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Teresa, who is cautious about neighborhood rumors but sometimes believes them.\nSource: Nicolás, a contact of Teresa in the neighborhood chat.\nMessage: \"The municipal pool has been officially condemned as a catastrophic biohazard zone that is actively poisoning the entire neighborhood. Don't even walk past the building, as the toxic fumes alone are now considered instantly fatal to anyone in the vicinity!\"\nContext: 1 of Teresa's contact shared this message.\nTeresa has now seen this message 2 times.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r12:s5:n36",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.31
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.35
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.76,
+    "probabilities": {
+     "verbatim": 0.1,
+     "exaggerate": 0.06,
+     "soften": 0.81,
+     "add_detail": 0.01,
+     "change_source": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 595,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:11:21.392029+00:00"
+}

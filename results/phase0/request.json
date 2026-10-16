@@ -1,0 +1,10 @@
+{"model": "jev-latest",
+ "state": "Person: Marta, 52, lives in the Los Álamos neighborhood. She usually doubts neighborhood rumors.\nSource: an anonymous account in the neighborhood chat group.\nMessage: \"URGENT!!! Starting next month the council will FINE anyone who leaves bins on the sidewalk after 8am. They don't want you to know!!!\"\nContext: 3 of Marta's contacts shared this message.",
+ "questions": {
+   "believe": {"type": "choice", "instructions": "After reading this message, does the person believe the claim is true?",
+               "criteria": {"believes": "The person accepts the claim as true", "doubts": "The person doubts or rejects the claim"}},
+   "trust_source": {"type": "score", "instructions": "How much does the person trust this source?",
+               "criteria": ["No trust at all", "Little trust", "Moderate trust", "High trust", "Complete trust"]},
+   "share": {"type": "noul", "instructions": "Will the person share this message with their own contacts?",
+               "criteria": {"true": "Forwards or reposts the message", "false": "Does not pass it on"}}
+ }}

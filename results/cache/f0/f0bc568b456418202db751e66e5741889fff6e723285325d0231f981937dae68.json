@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I’ve heard from a reliable source that the council is officially cracking down and will be issuing heavy fines for any bins left on the sidewalk after 8am starting the 1st. You definitely don’t want to be caught out, as they are apparently enforcing this with zero tolerance.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.16,
+    "confidence": 0.02,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.01,
+     "1": 0.51,
+     "2": 0.13,
+     "3": 0.01,
+     "4": 0.34
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.42,
+    "confidence": 0.5,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.08,
+     "3": 0.41,
+     "4": 0.5
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 437,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:06:31.182848+00:00"
+}

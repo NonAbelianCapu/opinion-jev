@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Ángel, who usually doubts neighborhood rumors.\nChange to make: SOFTEN: add doubt, or make the claim milder and less certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"I’m hearing some talk that the council might start fining people for leaving bins out after 8am, though I’m not sure how much truth there is to it. They seem to have enough rules already, so hopefully this is just another rumor.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "There’s some chatter going around about possible fines for bins left out past 8am, but it sounds like just another neighborhood rumor to me. I wouldn't put too much stock in it until we hear something official.",
+ "usage": {
+  "prompt_tokens": 142,
+  "completion_tokens": 46,
+  "total_tokens": 188,
+  "cost": 0.0001045,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001045,
+   "upstream_inference_prompt_cost": 3.55e-05,
+   "upstream_inference_completions_cost": 6.9e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r2:s2:n59",
+ "fetched_at": "2026-10-16T14:58:07.427455+00:00"
+}

@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard the pool is definitely shutting down for the entire summer because of a massive water emergency. I’m waiting for the staff to confirm it, but it sounds like we might lose the pool for good!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.63,
+    "confidence": 0.29,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.11,
+     "2": 0.4,
+     "3": 0.24,
+     "4": 0.25
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.64,
+    "confidence": 0.7,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.04,
+     "3": 0.25,
+     "4": 0.7
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 422,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:11.635183+00:00"
+}

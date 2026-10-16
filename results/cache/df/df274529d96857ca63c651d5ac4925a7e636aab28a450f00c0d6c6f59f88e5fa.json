@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard from a contact at the city council that the pool is staying closed all summer due to some serious issues flagged in the latest water report. Sounds like it might be worse than they’re letting on.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.4,
+    "confidence": 0.68,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.74,
+     "2": 0.2,
+     "3": 0.0,
+     "4": 0.06
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 1.64,
+    "confidence": 0.41,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.03,
+     "1": 0.46,
+     "2": 0.37,
+     "3": 0.11,
+     "4": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 422,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:10:04.060085+00:00"
+}

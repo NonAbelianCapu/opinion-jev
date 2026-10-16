@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Emilio, who is cautious about neighborhood rumors but sometimes believes them.\nEmilio trusts the staff who run the municipal pool.\nSource: Teresa, a contact of Emilio in the neighborhood chat.\nMessage: \"I’m hearing some concerning rumors that the pool might be closed for the summer due to potential contamination issues. I’m not sure how much of this is true, as the staff have always been very diligent, but it’s worth keeping an eye on.\"\nContext: 1 of Emilio's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r7:s4:n35",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.26
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.4
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "soften",
+    "confidence": 0.66,
+    "probabilities": {
+     "verbatim": 0.12,
+     "exaggerate": 0.12,
+     "soften": 0.73,
+     "add_detail": 0.01,
+     "change_source": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 598,
+   "output_tokens": 95
+  }
+ },
+ "fetched_at": "2026-10-16T15:07:58.062156+00:00"
+}

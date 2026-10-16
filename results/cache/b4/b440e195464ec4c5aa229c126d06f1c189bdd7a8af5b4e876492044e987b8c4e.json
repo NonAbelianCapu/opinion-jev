@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The council is officially launching a crackdown and will be slapping us with massive fines if bins aren't cleared by 8am sharp. They’re finally imposing their ridiculous new rules on everyone, so expect an enforcement nightmare starting immediately.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 3.0,
+    "confidence": 0.64,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.21,
+     "3": 0.5700000000000001,
+     "4": 0.22
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.94,
+    "confidence": 0.67,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.21,
+     "3": 0.61,
+     "4": 0.17
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 427,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:01.891772+00:00"
+}

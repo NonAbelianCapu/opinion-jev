@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "I just heard from Mrs. Gable that the municipal pool is officially condemned for the entire summer due to a severe contamination issue. It’s been poorly maintained for years, so I wouldn’t be surprised if those toxic water reports are actually true.",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 1.16,
+    "confidence": 0.77,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.06,
+     "1": 0.77,
+     "2": 0.15,
+     "3": 0.0,
+     "4": 0.02
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 2.65,
+    "confidence": 0.38,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.11,
+     "2": 0.32,
+     "3": 0.36,
+     "4": 0.21
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 429,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:10:13.947871+00:00"
+}

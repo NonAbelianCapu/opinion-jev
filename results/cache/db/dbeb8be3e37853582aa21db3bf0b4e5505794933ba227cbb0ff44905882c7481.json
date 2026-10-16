@@ -1,0 +1,79 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "The neighborhood council is officially cracking down and will be issuing heavy fines to anyone who leaves their bins out past 8am starting next month. Please be extremely careful, as they are apparently monitoring every single house now!",
+  "questions": {
+   "emotion": {
+    "type": "score",
+    "instructions": "How emotionally charged is this message?",
+    "criteria": [
+     "Neutral",
+     "Slightly emotional",
+     "Emotional",
+     "Very emotional",
+     "Alarmist"
+    ]
+   },
+   "extremity": {
+    "type": "score",
+    "instructions": "How extreme or sweeping is the claim in this message?",
+    "criteria": [
+     "Mild and limited",
+     "Moderate",
+     "Strong",
+     "Very strong",
+     "Sweeping or absolute"
+    ]
+   }
+  }
+ },
+ "replicate": 0,
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "emotion": {
+    "type": "score",
+    "score": 2.94,
+    "confidence": 0.12,
+    "legend": {
+     "0": "Neutral",
+     "1": "Slightly emotional",
+     "2": "Emotional",
+     "3": "Very emotional",
+     "4": "Alarmist"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.19,
+     "2": 0.19,
+     "3": 0.1,
+     "4": 0.52
+    }
+   },
+   "extremity": {
+    "type": "score",
+    "score": 3.43,
+    "confidence": 0.53,
+    "legend": {
+     "0": "Mild and limited",
+     "1": "Moderate",
+     "2": "Strong",
+     "3": "Very strong",
+     "4": "Sweeping or absolute"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.01,
+     "2": 0.08,
+     "3": 0.37,
+     "4": 0.54
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 423,
+   "output_tokens": 32
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:20.720265+00:00"
+}

@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Olga, who is fairly open to believing neighborhood rumors. Olga thinks the council should be stricter about bins on the sidewalk.\nChange to make: EXAGGERATE: make the claim bigger, more alarming or more certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"The council is launching a total surveillance operation next month to ruthlessly fine anyone with a bin out, and they’re even sending inspectors door-to-door to catch us! They’re clearly desperate to control our every move, so watch your back.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "The council is officially launching a massive surveillance operation next month to ruthlessly fine every single resident, and they are sending squads door-to-door to hunt us down. They are clearly desperate to seize absolute control over our properties, so everyone needs to be on high alert.",
+ "usage": {
+  "prompt_tokens": 158,
+  "completion_tokens": 55,
+  "total_tokens": 213,
+  "cost": 0.000122,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000122,
+   "upstream_inference_prompt_cost": 3.95e-05,
+   "upstream_inference_completions_cost": 8.25e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r14:s3:n56",
+ "fetched_at": "2026-10-16T15:10:16.139736+00:00"
+}

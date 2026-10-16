@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Victoria, who is fairly open to believing neighborhood rumors.\nSource: Susana, a contact of Victoria in the neighborhood chat.\nMessage: \"The municipal pool is being shut down indefinitely because the water is officially considered a toxic health hazard. I knew this facility had been falling apart for years, and now it’s finally become too dangerous for anyone to step foot in.\"\nContext: 1 of Victoria's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r16:s2:n50",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.7
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.66
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "exaggerate",
+    "confidence": 0.64,
+    "probabilities": {
+     "verbatim": 0.24,
+     "exaggerate": 0.71,
+     "soften": 0.0,
+     "add_detail": 0.04,
+     "change_source": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 581,
+   "output_tokens": 97
+  }
+ },
+ "fetched_at": "2026-10-16T15:13:08.800889+00:00"
+}

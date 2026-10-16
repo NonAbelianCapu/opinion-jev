@@ -1,0 +1,66 @@
+{
+ "request": {
+  "model": "jev-1.13.0",
+  "state": "Person: Julia, who is fairly open to believing neighborhood rumors.\nJulia thinks the council already has too many rules.\nSource: Laura, a contact of Julia in the neighborhood chat.\nMessage: \"The council is officially launching a massive crackdown on bins left out, and they’re reportedly handing out heavy fines starting immediately. You absolutely need to move yours now before they come by to enforce these strict new rules.\"\nContext: 1 of Julia's contact shared this message.",
+  "questions": {
+   "believe_p": {
+    "type": "noul",
+    "instructions": "Does the person believe the claim in this message is true?",
+    "criteria": {
+     "true": "The person thinks the claim is true",
+     "false": "The person thinks the claim is false or is not sure"
+    }
+   },
+   "share": {
+    "type": "noul",
+    "instructions": "Will the person share this message with their own contacts?",
+    "criteria": {
+     "true": "Forwards or reposts the message",
+     "false": "Does not pass it on"
+    }
+   },
+   "mutation": {
+    "type": "choice",
+    "instructions": "If this person forwards the message, how would they change it?",
+    "criteria": {
+     "verbatim": "Forwards it unchanged",
+     "exaggerate": "Makes the claim bigger, more alarming or more certain",
+     "soften": "Adds doubt or makes the claim milder",
+     "add_detail": "Adds a specific detail that was not in the original",
+     "change_source": "Attributes the claim to a different, more convincing source"
+    }
+   }
+  }
+ },
+ "replicate": "g0:r13:s6:n16",
+ "response": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "believe_p": {
+    "type": "noul",
+    "noul": 0.71
+   },
+   "share": {
+    "type": "noul",
+    "noul": 0.65
+   },
+   "mutation": {
+    "type": "choice",
+    "choice": "exaggerate",
+    "confidence": 0.81,
+    "probabilities": {
+     "verbatim": 0.12,
+     "exaggerate": 0.85,
+     "soften": 0.02,
+     "add_detail": 0.01,
+     "change_source": 0.0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 588,
+   "output_tokens": 97
+  }
+ },
+ "fetched_at": "2026-10-16T15:09:53.944946+00:00"
+}

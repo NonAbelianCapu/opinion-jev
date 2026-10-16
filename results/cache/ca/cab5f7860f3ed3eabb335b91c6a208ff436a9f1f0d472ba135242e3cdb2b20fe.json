@@ -1,0 +1,30 @@
+{
+ "prompt": "You forward messages in a neighborhood chat group. Rewrite the message below the way this person would forward it.\nPerson: Héctor, who is fairly open to believing neighborhood rumors. Héctor trusts the staff who run the municipal pool.\nChange to make: EXAGGERATE: make the claim bigger, more alarming or more certain.\nKeep it short (at most 2 sentences), keep the same topic, write in English, and output only the forwarded message, with no quotes or comments.\n\nMessage: \"The municipal pool is being condemned for the entire summer because the water is literally a toxic, hazardous waste dump. It was only a matter of time before their years of total neglect turned the place into a death trap for our families.\"",
+ "model": "google/gemini-3.1-flash-lite",
+ "text": "I just heard from the pool staff that the entire facility is being permanently condemned because the water is a lethal toxic waste zone. It’s an absolute disaster that they’ve let this place become such a deadly hazard for all of us.",
+ "usage": {
+  "prompt_tokens": 149,
+  "completion_tokens": 48,
+  "total_tokens": 197,
+  "cost": 0.00010925,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00010925,
+   "upstream_inference_prompt_cost": 3.725e-05,
+   "upstream_inference_completions_cost": 7.2e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "replicate": "g0:r8:s4:n25",
+ "fetched_at": "2026-10-16T15:08:50.458879+00:00"
+}
